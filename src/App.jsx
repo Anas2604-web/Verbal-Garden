@@ -1,20 +1,21 @@
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Plantlist from "./pages/PlantList";
-import PlantDetails from "./pages/PlantDetails";
-import Bookmarks from "./pages/Bookmarks";
-import Tour from "./pages/VirtualTour";
-
+import PlantList from './pages/PlantList';
+import PlantDetail from './pages/PlantDetail';
+import Bookmarks from './pages/Bookmarks';
+import VirtualTour from './pages/VirtualTour';
+import Login from './Components/login';
 
 function App() {
-  return(
+  return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/plants" element={<Plantlist/>} />
-        <Route path="/plants/:id" element={<PlantDetails/>} />
-        <Route path="/bookmarks" element={<Bookmarks/>} />
-        <Route path="/tour" element={<Tour/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/plants" element={<PlantList />} />
+        <Route path='/login' element={<Login/>} />
+        <Route path="/plants/:id" element={<PlantDetail />} />
+        <Route path="/bookmarks" element={<Bookmarks />} />
+        <Route path="/tour" element={<VirtualTour />} />
       </Routes>
     </Router>
   );
