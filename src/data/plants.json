@@ -6,8 +6,8 @@
     "uses": "Heals wounds, treats burns, good for skin",
     "description": "A fleshy plant with gel inside its leaves, known for soothing and healing properties.",
     "region": "Warm regions worldwide",
-    "image": "/assets/Images/.jpg",
-    "model": "/assets/Images/Aloe vera.jpg",
+    "image": "/assets/Images/aloevera.jpg",
+    "model": "/assets/Images/.jpg",
     "video": "/assets/aloe_vera_video.mp4",
     "audio": "/assets/aloe_vera_audio.mp3"
   },
@@ -18,7 +18,7 @@
     "uses": "Boosts immunity, treats cough/cold",
     "description": "A sacred plant in Indian tradition, widely used in Ayurvedic medicine.",
     "region": "All over India",
-    "image": "/assets/Images/Tulsi.jpg",
+    "image": "/assets/Images/tulsi.webp",
     "model": "/assets/tulsi.glb",
     "video": "/assets/tulsi_video.mp4",
     "audio": "/assets/tulsi_audio.mp3"
@@ -42,7 +42,7 @@
     "uses": "Relieves headaches, digestion problems",
     "description": "A minty herb used in oils, teas, and medicines.",
     "region": "Temperate climates worldwide",
-    "image": "/assets/Images/Peppermint",
+    "image": "/assets/Images/Peppermi",
     "model": "/assets/peppermint.glb",
     "video": "/assets/peppermint_video.mp4",
     "audio": "/assets/peppermint_audio.mp3"
@@ -54,7 +54,7 @@
     "uses": "Reduces anxiety, helps sleep",
     "description": "A daisy-like plant used in herbal teas and medicine.",
     "region": "Europe, Asia",
-    "image": "/assets/Images/German Chamomile.png",
+    "image": "/assets/Images/chamalion.webp",
     "model": "/assets/german_chamomile.glb",
     "video": "/assets/german_chamomile_video.mp4",
     "audio": "/assets/german_chamomile_audio.mp3"
@@ -66,7 +66,7 @@
     "uses": "Boosts energy, reduces stress",
     "description": "A powerful root herb in Ayurveda for overall health.",
     "region": "India, Middle East, Africa",
-    "image": "/assets/Images/ashwagandha.jpg",
+    "image": "/assets/Images/ashwagandha.png",
     "model": "/assets/ashwagandha.glb",
     "video": "/assets/ashwagandha_video.mp4",
     "audio": "/assets/ashwagandha_audio.mp3"

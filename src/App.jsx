@@ -2,9 +2,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import PlantList from './pages/PlantList';
 import PlantDetail from './pages/PlantDetail';
-import Bookmarks from './pages/Bookmarks';
 import VirtualTour from './pages/VirtualTour';
 import Login from './Components/login';
+import About from './pages/About';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Route path="/plants" element={<PlantList />} />
         <Route path='/login' element={<Login/>} />
         <Route path="/plants/:id" element={<PlantDetail />} />
-        <Route path="/bookmarks" element={<Bookmarks />} />
+        <Route path="/About" element={<About/>} />
         <Route path="/tour" element={<VirtualTour />} />
       </Routes>
     </Router>
