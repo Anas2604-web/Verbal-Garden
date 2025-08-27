@@ -4,14 +4,14 @@ import Login from "./login";
 import plants from "../data/plants.json";
 import SearchBar from "../Components/Searchbar"
 import PlantCard from "./PlantCard";
+import { Link } from "react-router-dom";
 
 
 const navitems = [
   { name: "Home", href: "/" },
   { name: "Plants", href: "/plants" },
-  // { name: "Bookmarks", href: "/bookmarks" },
   { name: "VirtualTour", href: "/tour" },
-  {name:"About", href:"/About"}
+  {name:"About", href:"/About"},
 ];
 
 
@@ -25,24 +25,25 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="fixed bg-white top-0 left-0 w-full z-40 py-3 shadow-md">
+    <nav className="fixed bg-white top-0 left-0 w-full py-4.5 shadow-md h-18">
       <div className="w-full  flex items-center justify-between">
         <a className="text-2xl font-bold flex items-center px-6 pl-14" href="/">
           <span className="ml-1">🌿Virtual Herbal Garden</span>
         </a>
         <div className="sm:flex space-x-4 px-3">
           {navitems.map((item) => (
-            <a
+            <Link
               key={item.name}
-              href={item.href}
-              className="px-3 py-2 rounded-3xl transition-transform duration-300 bg-transparent hover:bg-green-300 hover:scale-110"
+              to={item.href}
+              className="px-3 pt-1.5  rounded-3xl transition-transform duration-200  hover:bg-green-400 hover:scale-105 h-9"
             >
               {item.name}
-            </a>
+            </Link>
           ))}
-          
-          <div className="pt-1 pr-20">
-            <SearchBar Searchterm={Searchterm} setSearchTerm={setSearchterm} />
+           
+           {/* //login button */}
+          <div className="mt-0.2 mr-20 bg-gray-200 rounded-3xl hover:bg-green-500 h-9.5">
+            <button className="w-15 pt-1.5"><Link to="/Login">Login</Link></button>
           </div>
         </div>
       </div>

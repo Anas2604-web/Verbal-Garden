@@ -3,6 +3,7 @@ import plants from "../data/plants.json";
 import PlantCard from "../Components/PlantCard.jsx";
 import { useState } from "react";
 import SearchBar from "../Components/Searchbar";
+import Footer from "../Components/Footer.jsx";
 
 const PlantList = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -35,6 +36,9 @@ const PlantList = () => {
           ))}
         </div>
       </div>
+
+      {/* //footer */}
+      <Footer/>
     </>
   );
 };

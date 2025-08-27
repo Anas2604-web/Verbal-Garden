@@ -10,9 +10,9 @@ export default function Footer() {
                      <ul className="list-none text-sm mt-2.5">
                      <li><Link to="/">Home</Link></li>
                      <li><Link to="/About">About us</Link></li>
-                     <li to={"/plants"}>Explore Plants</li>
-                     <li to={"/tour"}>Virtual Tour</li>
-                     <li to={"/Contact"}>Contact</li>
+                     <li><Link to="/plants">Explore Plants</Link></li>
+                     <li><Link to="/tour">Virtual Tour</Link></li>
+                     <li><Link to="/Contact">Contact</Link></li>
                      </ul>
                 </div>
 

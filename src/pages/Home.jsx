@@ -19,7 +19,7 @@ export default function Home() {
       </div>
 
       {/* Image content */}
-      <div className='text-6xl pt-10 pr-120 pl-22 text-green-950'>
+      <div className='text-6xl pt-2 pr-120 pl-22 text-green-950'>
         <h1 className='font-bold leading-17'>Welcome to the Virtual Herbal Garden</h1>
       </div>
       <br/>
@@ -32,13 +32,13 @@ export default function Home() {
       </div>
 
       <div className='pl-23 pt-9'>
-        <button className='text-center text-white rounded-2xl w-50 h-15 text-2xl font-bold bg-gradient-to-b from-green-500 to-green-600'>Get Started</button>
+        <button className='text-center text-white rounded-2xl w-40 h-12 text-xl font-bold bg-green-500'>Get Started</button>
       </div>
 
 
       {/* plant card components */}
-      <div className='mt-12 pl-23'>
-        <h3 className='font-bold text-4xl pb-7'>Featured Plants</h3>
+      <div className='mt-25 pl-23'>
+        <h3 className='font-bold text-2xl pb-7'>Featured Plants</h3>
          
       </div>   
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 pl-23 pr-23">
@@ -49,11 +49,11 @@ export default function Home() {
 
       {/* About section */}
       <div className='flex'>
-        <div className='ml-23 mt-10 mr-23'>
-          <h3 className='text-3xl font-bold pb-9'>About</h3>
+        <div className='ml-23 mt-6 mr-23'>
+          <h3 className='text-2xl font-bold pb-6'>About</h3>
           <img className='rounded-xl h-70 w-100' src="./assets/Images/bg3.png" alt="" />
         </div>
-        <div className='flex-1 mt-25 mr-23 text-sm'>
+        <div className='flex-1 mt-18 mr-23 text-sm'>
           <p className='leading-8'>Virtual Herbal Garden is a digital platform blending traditional herbal knowledge with modern technology, offering 30 plant models, scientific insights, and interactive learning features for students, researchers, and health enthusiasts. The platform serves as a bridge between ancient wisdom and modern science, helping users explore the medicinal value, growth patterns, and therapeutic applications of various herbs.Along with detailed plant information.</p>
           <button className='text-sm mt-8 rounded-lg w-60 h-9 font-bold bg-gray-100'><a href="/About">Learn More About Our Vision</a></button>
         </div>

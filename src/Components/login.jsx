@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 export default function Login() {
@@ -51,6 +52,9 @@ export default function Login() {
                 </form>
             </div>
         </div>
+
+        {/* footer */}
+        <Footer/>
         </>
     );
 }

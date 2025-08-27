@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import plants from '../data/plants.json'; // Assuming the data is in this file
 import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 export default function VirtualTour() {
   const [index, setIndex] = useState(0);
@@ -22,6 +23,9 @@ export default function VirtualTour() {
       </div>
 
     </div>
+
+    {/* //footer */}
+    <Footer/>
     </>
   );
 }

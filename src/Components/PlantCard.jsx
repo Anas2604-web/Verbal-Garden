@@ -8,6 +8,8 @@
 //   );
 // }
 
+import { Link } from "react-router-dom";
+
 
 
 export default function PlantCard({ plant }) {
@@ -26,8 +28,8 @@ export default function PlantCard({ plant }) {
       <p className="text-sm text-gray-600 mt-1">{plant.description}</p>
 
       {/* Button */}
-      <button className="mt-3 bg-green-600 text-white px-3 py-1 rounded-lg text-sm hover:bg-green-700 transition-colors">
-        View Details
+      <button className="mt-3 bg-gray-100 text-black px-3 py-1 rounded-lg text-sm  transition-colors">
+        <Link to="/plants">View Details</Link>
       </button>
     </div>
   );
