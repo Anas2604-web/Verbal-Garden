@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar />
 
       {/* Background image section */}
-      <div className="mt-17 w-cover h-[80px]">
+      <div className="mt-16 w-cover h-[80px]">
         <img
         src="./assets/Images/bg2.png"
         alt="Virtual Herbal Garden"
@@ -41,14 +41,14 @@ export default function Home() {
         <h3 className='font-bold text-2xl pb-7'>Featured Plants</h3>
          
       </div>   
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 pl-23 pr-23">
-        {Plants.slice(0,3).map((plant) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 pl-23 pr-23">
+        {Plants.slice(0,4).map((plant) => (
           <PlantCard key={plant.id} plant={plant}/>
         ))}
       </div>   
 
       {/* About section */}
-      <div className='flex'>
+      <div className='flex mb-9'>
         <div className='ml-23 mt-6 mr-23'>
           <h3 className='text-2xl font-bold pb-6'>About</h3>
           <img className='rounded-xl h-70 w-100' src="./assets/Images/bg3.png" alt="" />

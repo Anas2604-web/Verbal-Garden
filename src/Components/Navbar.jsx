@@ -12,6 +12,7 @@ const navitems = [
   { name: "Plants", href: "/plants" },
   { name: "VirtualTour", href: "/tour" },
   {name:"About", href:"/About"},
+  {name:"Login", href:"/Login"},
 ];
 
 
@@ -25,7 +26,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="fixed bg-white top-0 left-0 w-full py-4.5 shadow-md h-18">
+    <nav className="fixed bg-white top-0 left-0 w-full py-3 shadow-md h-15">
       <div className="w-full  flex items-center justify-between">
         <a className="text-2xl font-bold flex items-center px-6 pl-14" href="/">
           <span className="ml-1">🌿Virtual Herbal Garden</span>
@@ -42,9 +43,9 @@ const Navbar = () => {
           ))}
            
            {/* //login button */}
-          <div className="mt-0.2 mr-20 bg-gray-200 rounded-3xl hover:bg-green-500 h-9.5">
+          {/* <div className="mt-0.2 mr-20 bg-gray-200 rounded-3xl hover:bg-green-500 h-9.5">
             <button className="w-15 pt-1.5"><Link to="/Login">Login</Link></button>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>

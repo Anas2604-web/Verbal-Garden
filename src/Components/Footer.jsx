@@ -1,9 +1,10 @@
+import {Facebook, Instagram, Linkedin, Twitter} from "lucide-react"
 import { Link } from "react-router-dom";
 
 export default function Footer() {
     return(
         <footer>
-            <div className="bg-green-600 w-full h-42 p-2 flex mt-8">
+            <div className="bg-green-600 w-full h-42 p-2 flex">
                 {/* //quick links */}
                 <div className="ml-23 text-white flex-1 font-bold">
                      <h3 className="mt-2">Quick Links</h3>
@@ -30,6 +31,14 @@ export default function Footer() {
                 <div className="flex-1 text-white font-bold" >
                     <h4 className="mt-2">Follow us</h4>
                     <p className="text-sm mt-2.5 font-bold">Facebook | Instragram | Twitter | Linkedin</p>
+                    <div className="flex items-center ml-5 mt-3">
+                        <Link to="/"><Facebook className="w-6 h-5"/></Link>
+                        <Link to="/About"><Instagram className="w-6 h-5 ml-13.5"/></Link>
+                        <Link to="/"><Twitter className="w-6 h-5 ml-12.5"/></Link>
+                        <Link to="/"><Linkedin className="w-6 h-5 ml-9.5"/></Link>
+
+                    </div>
+                    
                 </div>
             </div>
 

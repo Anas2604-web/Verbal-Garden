@@ -14,13 +14,16 @@ import { Link } from "react-router-dom";
 
 export default function PlantCard({ plant }) {
   return (
-    <div className=" border rounded-xl shadow-md p-4 hover:shadow-lg transition-shadow duration-300">
+    <div className="w-60 border rounded-xl shadow-md p-4 hover:shadow-lg transition-shadow duration-300 bg-white">
       {/* Image */}
-      <img
-        src={plant.image}
-        alt={plant.name}
-        className="h-40 w-full rounded-lg"
-      />
+      <div className="rounded-lg">
+        <img
+          src={plant.image}
+          // alt={plant.name}
+          className="h-50 w-full rounded-lg bg-green-500"
+        />
+      </div>
+      
 
       {/* Plant Info */}
       <h2 className="text-lg font-semibold mt-3">{plant.name}</h2>
@@ -29,7 +32,7 @@ export default function PlantCard({ plant }) {
 
       {/* Button */}
       <button className="mt-3 bg-gray-100 text-black px-3 py-1 rounded-lg text-sm  transition-colors">
-        <Link to="/plants">View Details</Link>
+        <Link to="/plants">View Detail</Link>
       </button>
     </div>
   );
