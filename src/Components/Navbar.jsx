@@ -31,7 +31,7 @@ const Navbar = () => {
         <a className="text-2xl font-bold flex items-center px-6 pl-14" href="/">
           <span className="ml-1">🌿Virtual Herbal Garden</span>
         </a>
-        <div className="sm:flex space-x-4 px-3">
+        <div className="sm:flex space-x-3 px-20">
           {navitems.map((item) => (
             <Link
               key={item.name}
@@ -42,10 +42,7 @@ const Navbar = () => {
             </Link>
           ))}
            
-           {/* //login button */}
-          {/* <div className="mt-0.2 mr-20 bg-gray-200 rounded-3xl hover:bg-green-500 h-9.5">
-            <button className="w-15 pt-1.5"><Link to="/Login">Login</Link></button>
-          </div> */}
+           
         </div>
       </div>
     </nav>

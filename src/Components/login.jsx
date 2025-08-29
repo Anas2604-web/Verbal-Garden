@@ -1,20 +1,21 @@
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
 
 export default function Login() {
     return (
         <>
         <Navbar/>
-        <div className="min-h-screen bg-gradient-to-r from-green-100 to-green-300 flex items-center justify-center px-4">
-            <div className="bg-white shadow-2xl rounded-2xl p-8 w-full max-w-md">
-                <h1 className="text-3xl font-bold text-center text-green-600 mb-6">Login</h1>
+        <div className="min-h-screen bg-white flex items-center justify-center">
+            <div className="mt-15 border-2 border-green-500 felx-1 shadow-2xl rounded-2xl p-7 w-full max-w-md mr-145">
+                <h1 className="text-3xl font-bold text-center text-green-600 mb-6">Welcome Back</h1>
                 <form method="POST" className="space-y-5">
                     <div>
-                        <label className="block text-gray-700 mb-1 font-medium">Username</label>
+                        <label className="block text-gray-700 mb-1 font-medium">Email</label>
                         <input
                             type="text"
                             name="username"
-                            placeholder="Enter your username"
+                            placeholder="Enter your email"
                             required
                             className="text-black w-full px-4 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-400"
                         />
@@ -31,23 +32,24 @@ export default function Login() {
                         />
                     </div>
 
-                    <div>
-                        <label className="block text-gray-700 mb-1 font-medium">Mobile Number</label>
-                        <input
-                            type="number"
-                            name="Number"
-                            placeholder="Enter your number"
-                            required
-                            className="text-black w-full px-4 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-400"
-                        />
+
+                    <div className="bg-green-500 rounded-2xl w-20 h-8 ml-40">
+                        <Link><button className="pl-5.5 pt-0.5 text-white font-bold">Login</button></Link>
                     </div>
 
-                    <div>
-                        <input
-                            type="submit"
-                            value="Login"
-                            className="w-full bg-green-500 text-white py-2 rounded-xl font-semibold hover:bg-green-600 transition-all duration-200 cursor-pointer"
-                        />
+
+                    <div className="text-center">
+                        <p>Don't have an account ? <Link to="/Signup">Signup</Link></p>
+                    </div>
+
+
+
+                    <div className="text-center font-bold">
+                        <Link><p>Forgot Password</p></Link>
+                    </div>
+
+                    <div className="text-center border-2 rounded-lg h-10">
+                        <Link><button className="pt-1">Google</button></Link>
                     </div>
                 </form>
             </div>

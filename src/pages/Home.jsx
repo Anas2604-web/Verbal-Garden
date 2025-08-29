@@ -58,6 +58,9 @@ export default function Home() {
           <button className='text-sm mt-8 rounded-lg w-60 h-9 font-bold bg-gray-100'><a href="/About">Learn More About Our Vision</a></button>
         </div>
       </div>
+
+
+      
       {/* //footer */}
         <Footer/>
     </>
