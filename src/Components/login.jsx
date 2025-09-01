@@ -1,6 +1,8 @@
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
+import { Box } from 'lucide-react';
+
 
 export default function Login() {
     return (
@@ -58,12 +60,12 @@ export default function Login() {
             {/* image */}
             <div className="mt-16 bg-gradient-to-b from-green-100 to-green-300 w-[600px] min-h-screen">
                 <div className="">
-                    <h1 className="pt-7 font-bold text-green-800 text-4xl pl-10">Welcome to</h1>
-                    <span className="text-green-950 font-bold text-4xl pl-10 leading-14">Virual Herbal Garden</span>
-                    <p className="pt-5 text-lg pl-10 pr-10">Eplore medicinal plants in 3D, learn about their benefits, discover the connection between nature and healing.</p>
-                    <img src="./assets/Images/.png" alt="image" className="h-[300px] flex justify-self-center-safe" />
-                    <h3 className="pl-10 text-xl font-medium pb-2 pt-5">Interactive 3D plant models</h3>
-                    <h3 className="pl-10 text-xl font-medium pb-5">Videos & audio narrations</h3>
+                    <h1 className="pt-7 font-bold text-green-800 text-4xl pl-15">Welcome to</h1>
+                    <span className="flex justify-center-safe text-green-950 font-bold text-4xl leading-14">Virual Herbal Garden</span>
+                    <p className="pt-3 text-lg pl-16 pr-10">Eplore medicinal plants in 3D, learn about their benefits, discover the connection between nature and healing.</p>
+                    <img src="./assets/Images/loginImage.png" alt="image" className="h-[400px] flex justify-self-center-safe pt-5" />
+                    <h3 className="pl-16 text-xl font-medium pb-2">Interactive 3D plant models</h3>
+                    <h3 className="pl-16 text-xl font-medium pb-5">Videos & audio narrations</h3>
                 </div>
             </div>
         </div>
