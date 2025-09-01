@@ -60,6 +60,10 @@ export default function Login() {
                 <div className="">
                     <h1 className="pt-7 font-bold text-green-800 text-4xl pl-10">Welcome to</h1>
                     <span className="text-green-950 font-bold text-4xl pl-10 leading-14">Virual Herbal Garden</span>
+                    <p className="pt-5 text-lg pl-10 pr-10">Eplore medicinal plants in 3D, learn about their benefits, discover the connection between nature and healing.</p>
+                    <img src="./assets/Images/.png" alt="image" className="h-[300px] flex justify-self-center-safe" />
+                    <h3 className="pl-10 text-xl font-medium pb-2 pt-5">Interactive 3D plant models</h3>
+                    <h3 className="pl-10 text-xl font-medium pb-5">Videos & audio narrations</h3>
                 </div>
             </div>
         </div>
