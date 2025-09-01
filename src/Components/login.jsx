@@ -56,9 +56,10 @@ export default function Login() {
 
 
             {/* image */}
-            <div className="bg-gradient-to-b from-green-100 to-green-300 w-[550px] min-h-screen">
+            <div className="mt-16 bg-gradient-to-b from-green-100 to-green-300 w-[600px] min-h-screen">
                 <div className="">
-                    <h1>hello</h1>
+                    <h1 className="pt-7 font-bold text-green-800 text-4xl pl-10">Welcome to</h1>
+                    <span className="text-green-950 font-bold text-4xl pl-10 leading-14">Virual Herbal Garden</span>
                 </div>
             </div>
         </div>
