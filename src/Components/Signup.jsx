@@ -6,13 +6,13 @@ import { CirclePlay } from 'lucide-react';
 
 
 
-export default function Login() {
+export default function Signup() {
     return (
         <>
         <Navbar/>
         <div className="min-h-screen bg-white flex items-center justify-center">
             <div className="mt-15 border-2 border-green-500 shadow-2xl rounded-2xl p-7 w-[500px] mr-30 ">
-                <h1 className="text-3xl font-bold text-center text-green-600 mb-6">Welcome Back</h1>
+                <h1 className="text-3xl font-bold text-center text-green-600 mb-6">Join Us Today</h1>
                 <form method="POST" className="space-y-5">
                     <div>
                         {/* <label className="block text-gray-700 mb-1 font-medium">Email</label> */}
@@ -38,21 +38,21 @@ export default function Login() {
 
 
                     <div className="w-full pl-4.5 pt-1 text-center border-2 border-green-200 rounded-3xl text-green-500 font-bold h-10 hover:text-white hover:bg-green-600">
-                        <Link to=""><button >Login</button></Link>
+                        <Link to=""><button >Continue with Email</button></Link>
                     </div>
 
 
-                    <div className="text-center">
+                    {/* <div className="text-center">
                         <p>Don't have an account ? <Link to="/Signup">Signup</Link></p>
+                    </div> */}
+
+
+
+                    <div className="text-center text-sm font-medium">
+                        <p>Signup Option</p>
                     </div>
 
-
-
-                    <div className="text-center font-bold">
-                        <Link><p>Forgot Password</p></Link>
-                    </div>
-
-                    <div className="text-center border-2 border-green-200 rounded-xl text-green-500 font-bold h-10 hover:text-white hover:bg-green-600">
+                    <div className="text-center border-2 border-green-200 rounded-3xl text-green-500 font-bold h-10 hover:text-white hover:bg-green-600">
                         <Link><button className="pt-1">Google</button></Link>
                     </div>
                 </form>
