@@ -21,9 +21,9 @@ const PlantList = () => {
       
 
       
-      <div className="mt-1 pt-14 w-cover bg-green-400 h-[1770px]"> {/* Add enough top padding to clear navbar */}
+      <div className="mt-1 pt-14 w-cover bg-gradient-to-b from-green-200 to-green-100 h-[1770px] "> {/* Add enough top padding to clear navbar */}
         {/* Sticky Search Header */}
-        <div className="fixed w-full bg-green-300 bg-no-repeat bg-cover h-27 pl-23">
+        <div className="fixed w-full bg-green-200 bg-no-repeat bg-cover h-27 pl-23 ">
           <h1 className="text-green-950 text-2xl font-bold mb-3 pt-3 ">All Plants</h1>
           <SearchBar
             searchTerm={searchTerm}

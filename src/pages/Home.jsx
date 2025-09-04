@@ -54,7 +54,7 @@ export default function Home() {
           <img className='rounded-xl h-70 w-100' src="./assets/Images/bg3.png" alt="" />
         </div>
         <div className='flex-1 mt-18 mr-23 text-sm'>
-          <p className='leading-8'>Virtual Herbal Garden is a digital platform blending traditional herbal knowledge with modern technology, offering 30 plant models, scientific insights, and interactive learning features for students, researchers, and health enthusiasts. The platform serves as a bridge between ancient wisdom and modern science, helping users explore the medicinal value, growth patterns, and therapeutic applications of various herbs.Along with detailed plant information.</p>
+          <p className='leading-8 text-green-500'>Virtual Herbal Garden is a digital platform blending traditional herbal knowledge with modern technology, offering 30 plant models, scientific insights, and interactive learning features for students, researchers, and health enthusiasts. The platform serves as a bridge between ancient wisdom and modern science, helping users explore the medicinal value, growth patterns, and therapeutic applications of various herbs.Along with detailed plant information.</p>
           <button className='text-sm mt-8 rounded-lg w-60 h-9 font-bold bg-gray-100'><a href="/About">Learn More About Our Vision</a></button>
         </div>
       </div>
