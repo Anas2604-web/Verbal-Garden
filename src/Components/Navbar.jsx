@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const navitems = [
   { name: "Home", href: "/" },
   { name: "Plants", href: "/plants" },
-  { name: "VirtualTour", href: "/tour" },
+  { name: "VirtualTour", href: "/Virtualtour" },
   {name:"About", href:"/About"},
   {name:"Login", href:"/Login"},
 ];

@@ -6,6 +6,7 @@ import VirtualTour from './pages/VirtualTour';
 import Login from './Components/login';
 import Signup from './Components/Signup';
 import About from './pages/About';
+// import Tour from './Components/Tour';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <Route path='/Signup' element={<Signup/>}/>
         <Route path="/plants/:id" element={<PlantDetail />} />
         <Route path="/About" element={<About/>} />
-        <Route path="/tour" element={<VirtualTour />} />
+        <Route path="/Virtualtour" element={<VirtualTour />} />
+        {/* <Route path="/GardenTour" element={<Tour />} /> */}
       </Routes>
     </Router>
   );
