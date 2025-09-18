@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Navbar from "../Components/Navbar";
 import PlantCard from '../Components/PlantCard';
-import Plants from "../data/plants.json"
+import Plants from "../data/plants"
 import Footer from '../Components/Footer';
 
 export default function Home() {

@@ -1,5 +1,5 @@
 import Navbar from "../Components/Navbar.jsx";
-import plants from "../data/plants.json";
+import plants from "../data/plants.jsx";
 import PlantCard from "../Components/PlantCard.jsx";
 import { useState } from "react";
 import SearchBar from "../Components/Searchbar";

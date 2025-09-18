@@ -6,7 +6,8 @@ import VirtualTour from './pages/VirtualTour';
 import Login from './Components/login';
 import Signup from './Components/Signup';
 import About from './pages/About';
-// import Tour from './Components/Tour';
+import Threedmodel from './Components/Threedmodel';
+
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Route path="/plants/:id" element={<PlantDetail />} />
         <Route path="/About" element={<About/>} />
         <Route path="/Virtualtour" element={<VirtualTour />} />
-        {/* <Route path="/GardenTour" element={<Tour />} /> */}
+        <Route path="/GardenScene" element={<Threedmodel />} />
       </Routes>
     </Router>
   );

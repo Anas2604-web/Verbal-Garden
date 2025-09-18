@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import plants from '../data/plants.json'; // Assuming the data is in this file
+import plants from '../data/plants'; 
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import { Link } from 'react-router-dom';
@@ -24,7 +24,7 @@ export default function VirtualTour() {
              Embark on a serene virtual journey through our meticulously designed herbal garden. Explore in immersive 3D, listen to the soothing sounds of nature, and uncover the secrets of therapeutic Ayurveda. 
             </p>
             <button className='mt-10 bg-amber-50 w-30 h-10 rounded-3xl text-center font-medium'>
-              <Link to="/GardenTour">Start Tour</Link>
+              <Link to="/GardenScene">Start Tour</Link>
             </button>
         </div>
 
