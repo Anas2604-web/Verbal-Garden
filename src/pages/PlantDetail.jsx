@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import ThreeDViewer from "../components/ThreeDViewer";
-import plants from "../data/plants.json";
+import plants from "../data/plants";
 import Reactplayer from "react-player";
 import AudioPlayer from "../Components/AudioPlayer";
 

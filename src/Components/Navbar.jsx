@@ -1,9 +1,5 @@
-import React from "react";
 import { useState } from "react";
-import Login from "./login";
-import plants from "../data/plants.json";
-import SearchBar from "../Components/Searchbar"
-import PlantCard from "./PlantCard";
+import plants from "../data/plants";
 import { Link } from "react-router-dom";
 
 
