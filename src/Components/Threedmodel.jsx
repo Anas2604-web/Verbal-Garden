@@ -5,10 +5,9 @@ import TopBar from "./TopBar";
 import BottomBar from "./BottomBar";
 import plantsData from "../data/plants";
 
-
-
 export default function App() {
   const [selectedPlant, setSelectedPlant] = useState(null);
+  const [aiPopupOpen, setAiPopupOpen] = useState(false); // NEW
   const [bookmarks, setBookmarks] = useState([]);
   const [search, setSearch] = useState("");
 
@@ -38,7 +37,10 @@ export default function App() {
       />
 
       <div className="">
-        <GardenScene onSelectPlant={(p) => setSelectedPlant(p)} />
+        <GardenScene
+          onSelectPlant={(p) => setSelectedPlant(p)}
+          isAIPopupOpen={aiPopupOpen} // PASS AI popup state
+        />
       </div> 
 
       {selectedPlant && (
@@ -47,6 +49,7 @@ export default function App() {
             plant={selectedPlant}
             onClose={() => setSelectedPlant(null)}
             onSave={handleSave}
+            setAiPopupOpen={setAiPopupOpen} // PASS setter so Popup can open AI popup
           />
         </div>
       )}

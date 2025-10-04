@@ -32,22 +32,19 @@ function PlantMarker({ position, label, onClick }) {
   );
 }
 
-export default function GardenScene({ onSelectPlant }) {
+export default function GardenScene({ onSelectPlant, isAIPopupOpen }) {
   return (
-    <div className="border-2 border-green-500 rounded-2xl" style={{ height: "75vh", width: "65%", marginTop:85 , marginLeft:20 }}>
+    <div className="border-2 border-green-500 rounded-2xl" style={{ height: "75vh", width: "65%", marginTop: 85, marginLeft: 20 }}>
       <Canvas camera={{ position: [0, 2.2, 5], fov: 60 }} shadows>
         <ambientLight intensity={0.6} />
         <directionalLight position={[5, 10, 5]} intensity={1} castShadow />
 
         <Suspense fallback={null}>
-          {/* Ground plane */}
-          <mesh rotation={[-Math.PI / 2, 0, 0]} receiveShadow >
-            {/* <planeGeometry args={[20, 20]} /> */}
+          <mesh rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
             <meshStandardMaterial color="#7cc57c" />
           </mesh>
 
-          {/* Plants + Markers */}
-          {plants.map((p) => (
+          {!isAIPopupOpen && plants.map((p) => (
             <React.Fragment key={p.id}>
               <PlantModel modelPath={p.model} position={p.position} />
               <PlantMarker
@@ -66,3 +63,4 @@ export default function GardenScene({ onSelectPlant }) {
     </div>
   );
 }
+
