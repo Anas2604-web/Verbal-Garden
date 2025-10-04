@@ -11,7 +11,7 @@ const plants = [
     "Reduces dandruff in hair"
     ],
     "image": "/assets/Images/Healing plants/aloevera.jpg",
-    "model": "/assets/3D models/Healing plants/aloevera.glb",
+    "model": "/assets/3D models/Ayurvedic plants/brahmi.glb",
     "description": "Aloe Vera is a succulent plant known for its gel, which is rich in vitamins and minerals. It is widely used for skincare and digestive health.",
     "audio": "/audio/aloe-vera.mp3",
     "position": [-1.0, 0, -2.0]
@@ -32,118 +32,118 @@ const plants = [
   //   "audio": "/audio/turmeric.mp3",
   //   "position": [1.2, 0, -2.5]
   // },
-  {
-    "id": "ginger",
-    "name": "Ginger (Adrak)",
-    "category": "Healing + Culinary",
-    "uses": [
-      "Relieves nausea",
-      "Improves digestion",
-      "Fights cold & cough",
-      "Anti-inflammatory"
-    ],
-    "image": "/assets/Images/Healing plants/Ginger.jpg",
-    "model": "/assets/3D models/Healing plants/lemontree.glb",
-    "description": "Ginger is a commonly used root in cooking and medicine, known for its warming effect and digestive benefits.",
-    "audio": "/audio/ginger.mp3",
-    "position": [0.5, 0, -1.8]
-  },
-  {
-    "id": "neem",
-    "name": "Neem",
-    "category": "Healing + Ayurvedic",
-    "uses": [
-      "Skin infection cure",
-      "Natural blood purifier",
-      "Dental care",
-      "Boosts immunity"
-    ],
-    "image": "/assets/Images/Healing plants/neem.webp",
-    "model": "/assets/3D models/Healing plants/lemon3dmodel.glb",
-    "description": "Neem is called the 'village pharmacy' due to its wide range of medicinal properties.",
-    "audio": "/audio/neem.mp3",
-    "position": [-2.0, 0, -1.5]
-  },
-  {
-    "id": "ashwagandha",
-    "name": "Ashwagandha",
-    "category": "Healing + Rare Medicinal",
-    "uses": [
-      "Stress & anxiety relief",
-      "Improves strength",
-      "Boosts immunity",
-      "Enhances memory"
-    ],
-    "image": "/assets/Images/Healing plants/ashwgandha.png",
-    "model": "/assets/3D models/Healing plants/Ahwagandha.glb",
-    "description": "Ashwagandha is an adaptogenic herb that helps the body manage stress and improve energy.",
-    "audio": "/audio/ashwagandha.mp3",
-    "position": [2.0, 0, -2.2]
-  },
-  {
-    "id": "tulsi",
-    "name": "Tulsi (Holy Basil)",
-    "category": "Healing + Ayurvedic",
-    "uses": [
-      "Cold & cough relief",
-      "Stress reduction",
-      "Purifies air",
-      "Immunity booster"
-    ],
-    "image": "/assets/Images/Healing plants/tulsi.webp",
-    "model": "/assets/3D models/Healing plants/tulsi3dmodel.glb",
-    "description": "Tulsi is considered sacred and is widely used in Ayurveda for respiratory and immune health.",
-    "audio": "/audio/tulsi.mp3",
-    "position": [-1.6, 0, -2.3]
-  },
-  {
-    "id": "peppermint",
-    "name": "Peppermint",
-    "category": "Healing + Aromatic",
-    "uses": [
-      "Relieves headache",
-      "Improves digestion",
-      "Freshens breath",
-      "Relieves nausea"
-    ],
-    "image": "/assets/Images/Healing plants/peppermint.jpg",
-    "model": "/assets/3D models/Healing plants/redginger.glb",
-    "description": "Peppermint contains menthol, which provides a cooling sensation and health benefits.",
-    "audio": "/audio/peppermint.mp3",
-    "position": [0.2, 0, -3.0]
-  },
-  {
-    "id": "gotu-kola",
-    "name": "Gotu Kola (Brahmi Booti)",
-    "category": "Healing + Rare Medicinal",
-    "uses": [
-      "Improves memory",
-      "Wound healing",
-      "Reduces anxiety",
-      "Boosts blood circulation"
-    ],
-    "image": "/assets/Images/Healing plants/gotukala.jpg",
-    "model": "/assets/3D models/Healing plants/lemon3dmodel.glb",
-    "description": "Gotu Kola is an ancient herb used in Ayurveda for brain health and skin healing.",
-    "audio": "/audio/gotu-kola.mp3",
-    "position": [1.8, 0, -1.2]
-  },
-  {
-    "id": "calendula",
-    "name": "Calendula (Marigold Flower)",
-    "category": "Healing + Aromatic",
-    "uses": [
-      "Heals skin wounds",
-      "Reduces inflammation",
-      "Soothes rashes",
-      "Used in creams & oils"
-    ],
-    "image": "/assets/Images/Healing plants/calendula.webp",
-    "model": "/assets/3D models/Healing plants/lemon3dmodel.glb",
-    "description": "Calendula petals are known for their skin-soothing and anti-inflammatory effects.",
-    "audio": "/audio/calendula.mp3",
-    "position": [-0.8, 0, -2.7]
-  },
+  // {
+  //   "id": "ginger",
+  //   "name": "Ginger (Adrak)",
+  //   "category": "Healing + Culinary",
+  //   "uses": [
+  //     "Relieves nausea",
+  //     "Improves digestion",
+  //     "Fights cold & cough",
+  //     "Anti-inflammatory"
+  //   ],
+  //   "image": "/assets/Images/Healing plants/Ginger.jpg",
+  //   "model": "/assets/3D models/Healing plants/lemontree.glb",
+  //   "description": "Ginger is a commonly used root in cooking and medicine, known for its warming effect and digestive benefits.",
+  //   "audio": "/audio/ginger.mp3",
+  //   "position": [0.5, 0, -1.8]
+  // },
+  // {
+  //   "id": "neem",
+  //   "name": "Neem",
+  //   "category": "Healing + Ayurvedic",
+  //   "uses": [
+  //     "Skin infection cure",
+  //     "Natural blood purifier",
+  //     "Dental care",
+  //     "Boosts immunity"
+  //   ],
+  //   "image": "/assets/Images/Healing plants/neem.webp",
+  //   "model": "/assets/3D models/Healing plants/lemon3dmodel.glb",
+  //   "description": "Neem is called the 'village pharmacy' due to its wide range of medicinal properties.",
+  //   "audio": "/audio/neem.mp3",
+  //   "position": [-2.0, 0, -1.5]
+  // },
+  // {
+  //   "id": "ashwagandha",
+  //   "name": "Ashwagandha",
+  //   "category": "Healing + Rare Medicinal",
+  //   "uses": [
+  //     "Stress & anxiety relief",
+  //     "Improves strength",
+  //     "Boosts immunity",
+  //     "Enhances memory"
+  //   ],
+  //   "image": "/assets/Images/Healing plants/ashwgandha.png",
+  //   "model": "/assets/3D models/Healing plants/Ahwagandha.glb",
+  //   "description": "Ashwagandha is an adaptogenic herb that helps the body manage stress and improve energy.",
+  //   "audio": "/audio/ashwagandha.mp3",
+  //   "position": [2.0, 0, -2.2]
+  // },
+  // {
+  //   "id": "tulsi",
+  //   "name": "Tulsi (Holy Basil)",
+  //   "category": "Healing + Ayurvedic",
+  //   "uses": [
+  //     "Cold & cough relief",
+  //     "Stress reduction",
+  //     "Purifies air",
+  //     "Immunity booster"
+  //   ],
+  //   "image": "/assets/Images/Healing plants/tulsi.webp",
+  //   "model": "/assets/3D models/Healing plants/tulsi3dmodel.glb",
+  //   "description": "Tulsi is considered sacred and is widely used in Ayurveda for respiratory and immune health.",
+  //   "audio": "/audio/tulsi.mp3",
+  //   "position": [-1.6, 0, -2.3]
+  // },
+  // {
+  //   "id": "peppermint",
+  //   "name": "Peppermint",
+  //   "category": "Healing + Aromatic",
+  //   "uses": [
+  //     "Relieves headache",
+  //     "Improves digestion",
+  //     "Freshens breath",
+  //     "Relieves nausea"
+  //   ],
+  //   "image": "/assets/Images/Healing plants/peppermint.jpg",
+  //   "model": "/assets/3D models/Healing plants/redginger.glb",
+  //   "description": "Peppermint contains menthol, which provides a cooling sensation and health benefits.",
+  //   "audio": "/audio/peppermint.mp3",
+  //   "position": [0.2, 0, -3.0]
+  // },
+  // {
+  //   "id": "gotu-kola",
+  //   "name": "Gotu Kola (Brahmi Booti)",
+  //   "category": "Healing + Rare Medicinal",
+  //   "uses": [
+  //     "Improves memory",
+  //     "Wound healing",
+  //     "Reduces anxiety",
+  //     "Boosts blood circulation"
+  //   ],
+  //   "image": "/assets/Images/Healing plants/gotukala.jpg",
+  //   "model": "/assets/3D models/Healing plants/lemon3dmodel.glb",
+  //   "description": "Gotu Kola is an ancient herb used in Ayurveda for brain health and skin healing.",
+  //   "audio": "/audio/gotu-kola.mp3",
+  //   "position": [1.8, 0, -1.2]
+  // },
+  // {
+  //   "id": "calendula",
+  //   "name": "Calendula (Marigold Flower)",
+  //   "category": "Healing + Aromatic",
+  //   "uses": [
+  //     "Heals skin wounds",
+  //     "Reduces inflammation",
+  //     "Soothes rashes",
+  //     "Used in creams & oils"
+  //   ],
+  //   "image": "/assets/Images/Healing plants/calendula.webp",
+  //   "model": "/assets/3D models/Healing plants/lemon3dmodel.glb",
+  //   "description": "Calendula petals are known for their skin-soothing and anti-inflammatory effects.",
+  //   "audio": "/audio/calendula.mp3",
+  //   "position": [-0.8, 0, -2.7]
+  // },
 
   // 
   // {
