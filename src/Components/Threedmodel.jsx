@@ -27,7 +27,10 @@ export default function App() {
   };
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden bg-gradient-to-b from-sky-100 to-green-100">
+    <div className="relative overflow-hidden bg-gradient-to-b from-sky-200 to-green-300">
+      <div className="mt-8 text-center text-5xl font-bold text-green-900">
+        <h3>Welcome To Virtual Tour</h3>
+      </div>
       <TopBar
         search={search}
         setSearch={(val) => {
@@ -36,7 +39,7 @@ export default function App() {
         }}
       />
 
-      <div className="">
+      <div className="h-[95vh] w-[100vw]">
         <GardenScene
           onSelectPlant={(p) => setSelectedPlant(p)}
           isAIPopupOpen={aiPopupOpen} // PASS AI popup state
@@ -44,21 +47,24 @@ export default function App() {
       </div> 
 
       {selectedPlant && (
-        <div className="absolute top-5 right-6 z-50 w-90 border-2 border-green-400 bg-green-200 rounded-2xl">
+        <div className="absolute top-38 right-6 z-50 w-90 max-h-[86.9vh] overflow-y-auto border-2 border-green-400 bg-green-200 rounded-2xl shadow-lg p-4 scrollbar-hide">
           <Popup
             plant={selectedPlant}
             onClose={() => setSelectedPlant(null)}
             onSave={handleSave}
-            setAiPopupOpen={setAiPopupOpen} // PASS setter so Popup can open AI popup
+            setAiPopupOpen={setAiPopupOpen}
           />
         </div>
       )}
 
-      <BottomBar
+      
+      <div className="mb-5 ml-10">
+        <BottomBar
         onOpenBookmarks={() =>
           alert("Bookmarks:\n" + bookmarks.map((b) => b.name).join(", "))
         }
       />
+      </div>
     </div>
   );
 }

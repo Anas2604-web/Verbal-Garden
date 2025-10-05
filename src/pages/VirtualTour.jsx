@@ -29,40 +29,40 @@ export default function VirtualTour() {
         </div>
 
         {/* Mission Section */}
-        <div className="pl-70 w-full mx-auto grid md:grid-cols-2 gap-8 p-8">
+        <div className="pl-35 w-full mx-auto grid md:grid-cols-2 gap-8 p-8">
 
             <div className="flex flex-col justify-center">
               <div className="bg-green-200 py-7  rounded-2xl">
                 <h2 className="text-3xl font-bold text-center text-green-900 mb-5">✨ Key Features</h2>
-                <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 pl-10 p-4">
+                <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 pl-5 p-4">
 
                   <div className="bg-white rounded-2xl shadow-md p-6 text-center hover:scale-105 transition">
-                    <h3 className="text-2xl font-semibold">🌱 Healing Herbs</h3>
+                    <h3 className="text-xl font-semibold">🌱 Healing Herbs</h3>
                   </div>
                   
 
                   <div className="bg-white rounded-2xl shadow-md p-6 text-center hover:scale-105 transition">
-                    <h3 className="text-2xl font-semibold "></h3>
+                    <h3 className="text-xl font-semibold "></h3>
                   </div>
 
                   <div className="bg-white rounded-2xl shadow-md p-6 text-center hover:scale-105 transition">
-                    <h3 className="text-2xl font-semibold">🌱Culinary Herbs</h3>
+                    <h3 className="text-xl font-semibold">🌱Culinary Herbs</h3>
                   </div>
 
                   <div className='bg-white rounded-2xl shadow-md p-6 text-center hover:scale-105'>
-                    <h3 className='text-2xl font-semibold'>
+                    <h3 className='text-xl font-semibold'>
                     🌱 Ayurvedic Treasures
                     </h3>
                   </div>
 
                   <div className='bg-white rounded-2xl shadow-md p-6 text-center hover:scale-105'>
-                    <h3 className='text-2xl font-semibold'>
+                    <h3 className='text-xl font-semibold'>
                     🌱 Aromatic Plants
                     </h3>
                   </div>
 
                   <div className='bg-white rounded-2xl shadow-md p-4 text-center hover:scale-105'>
-                    <h3 className='text-2xl font-semibold'>
+                    <h3 className='text-xl font-semibold'>
                     🌱 Rare medical plants
                     </h3>
                   </div>
@@ -78,7 +78,7 @@ export default function VirtualTour() {
                 <img 
                     src="./assets/Images/About.webp" 
                     alt="Herbal Mission" 
-                    className="rounded-2xl shadow-lg bg-white h-[500px]"
+                    className="rounded-2xl shadow-lg bg-white h-[500px] mt-5"
                 />
             </div>
           </div>

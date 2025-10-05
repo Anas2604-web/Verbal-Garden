@@ -11,27 +11,27 @@ const plants = [
     "Reduces dandruff in hair"
     ],
     "image": "/assets/Images/Healing plants/aloevera.jpg",
-    "model": "/assets/3D models/Ayurvedic plants/brahmi.glb",
+    "model": "/assets/3D models/Healing plants/aloevera.glb",
     "description": "Aloe Vera is a succulent plant known for its gel, which is rich in vitamins and minerals. It is widely used for skincare and digestive health.",
     "audio": "/audio/aloe-vera.mp3",
     "position": [-1.0, 0, -2.0]
   },
-  // {
-  //   "id": "turmeric",
-  //   "name": "Turmeric (Haldi)",
-  //   "category": "Healing + Ayurvedic",
-  //   "uses": [
-  //     "Anti-inflammatory",
-  //     "Immunity booster",
-  //     "Wound healer",
-  //     "Improves digestion"
-  //   ],
-  //   "image": "/assets/Images/Healing plants/",
-  //   "model": "/assets/3D models/tulsi3dmodel.glb",
-  //   "description": "Turmeric contains curcumin, which has powerful anti-inflammatory and antioxidant properties.",
-  //   "audio": "/audio/turmeric.mp3",
-  //   "position": [1.2, 0, -2.5]
-  // },
+  {
+    "id": "turmeric",
+    "name": "Turmeric (Haldi)",
+    "category": "Healing + Ayurvedic",
+    "uses": [
+      "Anti-inflammatory",
+      "Immunity booster",
+      "Wound healer",
+      "Improves digestion"
+    ],
+    "image": "/assets/Images/Healing plants/",
+    "model": "/assets/3D models/Ayurvedic plants/brahmi.glb",
+    "description": "Turmeric contains curcumin, which has powerful anti-inflammatory and antioxidant properties.",
+    "audio": "/audio/turmeric.mp3",
+    "position": [1.2, 0, -2.5]
+  },
   // {
   //   "id": "ginger",
   //   "name": "Ginger (Adrak)",

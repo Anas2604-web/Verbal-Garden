@@ -34,7 +34,7 @@ function PlantMarker({ position, label, onClick }) {
 
 export default function GardenScene({ onSelectPlant, isAIPopupOpen }) {
   return (
-    <div className="border-2 border-green-500 rounded-2xl" style={{ height: "75vh", width: "65%", marginTop: 85, marginLeft: 20 }}>
+    <div className="border-2 border-green-500 rounded-2xl bg-green-300" style={{ height: "87vh", width: "93%", marginTop: 35, marginLeft: 53, marginBottom:10}}>
       <Canvas camera={{ position: [0, 2.2, 5], fov: 60 }} shadows>
         <ambientLight intensity={0.6} />
         <directionalLight position={[5, 10, 5]} intensity={1} castShadow />

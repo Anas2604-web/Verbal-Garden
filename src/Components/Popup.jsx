@@ -17,7 +17,7 @@ export default function Popup({ plant, onClose, setAiPopupOpen }) {
   };
 
   return (
-    <div className="p-3" role="dialog" aria-labelledby="plant-title">
+    <div className=" p-3" role="dialog" aria-labelledby="plant-title">
       <button className="float-right text-lg" onClick={onClose}>✕</button>
 
       <h2 id="plant-title" className="text-green-950 font-semibold">{plant.name}</h2>
@@ -32,15 +32,17 @@ export default function Popup({ plant, onClose, setAiPopupOpen }) {
 
       <img src={plant.image} alt={plant.name} className="w-full h-44 rounded-md" />
 
-      <div className="mt-2">
-        <model-viewer
-          src={plant.model}
-          alt={plant.name}
-          auto-rotate
-          camera-controls
-          style={{ width: "100%", height: "170px", background: "#fff" }}
-        />
-      </div>
+      <div className="mt-2 rounded-md overflow-hidden border border-green-300 shadow-sm">
+  <model-viewer
+    src={plant.model}
+    alt={plant.name}
+    auto-rotate
+    camera-controls
+    style={{ width: "100%", height: "172px", backgroundColor: '#ffffff' }}
+  />
+</div>
+
+
 
       <p className="text-sm mt-1">{plant.description}</p>
 
