@@ -22,7 +22,7 @@ export default function VirtualTour() {
         {/* Header */}
         <div className="text-center py-12">
           <h1 className="text-5xl font-bold text-green-900 mb-4">
-            Virtual Herbal Tour Garden
+            Virtual Herbal Garden Tour
           </h1>
           <p className="text-lg max-w-3xl mx-auto text-green-700">
             Embark on a serene virtual journey through our meticulously designed
