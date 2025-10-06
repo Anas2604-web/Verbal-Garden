@@ -31,7 +31,7 @@ export default function About() {
             </div>
             <div>
                 <img 
-                    src="./assets/Images/About.webp" 
+                    src="./assets/Images/main about.jpg" 
                     alt="Herbal Mission" 
                     className="rounded-2xl shadow-lg bg-white h-[500px]"
                 />

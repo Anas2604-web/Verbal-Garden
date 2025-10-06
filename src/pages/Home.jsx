@@ -14,7 +14,7 @@ export default function Home() {
         <img
         src="./assets/Images/bg2.png"
         alt="Virtual Herbal Garden"
-        className="w-full h-[600px] object-fill"
+        className="w-full h-[500px] object-fill"
         />
       </div>
 
@@ -29,10 +29,6 @@ export default function Home() {
       <br />
       <div className='text-2xl text-white pl-23 pr-140'>
         <p>Explore the Healing properties of Medical Plants in a serene Digital Garden</p>
-      </div>
-
-      <div className='pl-23 pt-9'>
-        <button className='text-center text-white rounded-2xl w-40 h-12 text-xl font-bold bg-green-500'>Get Started</button>
       </div>
 
 
@@ -51,10 +47,12 @@ export default function Home() {
       <div className='flex mb-9'>
         <div className='ml-23 mt-6 mr-23'>
           <h3 className='text-2xl font-bold pb-6'>About</h3>
-          <img className='rounded-xl h-70 w-100' src="./assets/Images/bg3.png" alt="" />
+          <div className='bg-green-300 rounded-2xl'>
+            <img className='h-70 w-100' src="./assets/Images/About image.jpg" alt="Image" />
+          </div>
         </div>
-        <div className='flex-1 mt-18 mr-23 text-sm'>
-          <p className='leading-8 text-green-500'>Virtual Herbal Garden is a digital platform blending traditional herbal knowledge with modern technology, offering 30 plant models, scientific insights, and interactive learning features for students, researchers, and health enthusiasts. The platform serves as a bridge between ancient wisdom and modern science, helping users explore the medicinal value, growth patterns, and therapeutic applications of various herbs.Along with detailed plant information.</p>
+        <div className='flex-1 mt-18 mr-23 text-lg'>
+          <p className='leading-8 text-green-900'>Virtual Herbal Garden is a digital platform blending traditional herbal knowledge with modern technology, offering 30 plant models, scientific insights, and interactive learning features for students, researchers, and health enthusiasts. The platform serves as a bridge between ancient wisdom and modern science, helping users explore the medicinal value, growth patterns, and therapeutic applications of various herbs.Along with detailed plant information.</p>
           <button className='text-sm mt-8 rounded-lg w-60 h-9 font-bold bg-gray-100'><a href="/About">Learn More About Our Vision</a></button>
         </div>
       </div>
