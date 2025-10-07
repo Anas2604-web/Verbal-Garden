@@ -232,7 +232,7 @@ const plants = [
     category: "Culinary Plant",
     uses: ["Enhances flavor", "Aids digestion", "Rich in antioxidants", "Supports heart health"],
     image: "/assets/Images/Culinary plants/coriander.jpg",
-    model: "/assets/3D models/Culinary plants/coriander.glb",
+//     model: "/assets/3D models/Culinary plants/coriander.glb",
     description: "Coriander is an aromatic herb widely used in cooking and medicine.",
     audio: "/audio/coriander.mp3",
     position: [1.0, 0, -2.5]
@@ -243,7 +243,7 @@ const plants = [
     category: "Culinary Plant",
     uses: ["Boosts immunity", "Reduces blood pressure", "Antimicrobial", "Supports heart health"],
     image: "/assets/Images/Culinary plants/garlic.webp",
-    model: "/assets/3D models/Culinary plants/garlic.glb",
+//     model: "/assets/3D models/Culinary plants/garlic.glb",
     description: "Garlic is a culinary herb known for flavor and medicinal properties.",
     audio: "/audio/garlic.mp3",
     position: [-0.8, 0, -2.9]
@@ -254,7 +254,7 @@ const plants = [
     category: "Culinary Plant",
     uses: ["Supports digestion", "Relieves headaches", "Freshens breath", "Anti-inflammatory"],
     image: "/assets/Images/Culinary plants/mint.webp",
-    model: "/assets/3D models/Culinary plants/mint.glb",
+//     model: "/assets/3D models/Culinary plants/mint.glb",
     description: "Mint is a popular herb used in teas, culinary dishes, and medicine.",
     audio: "/audio/mint.mp3",
     position: [0.9, 0, -2.7]
