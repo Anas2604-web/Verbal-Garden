@@ -30,7 +30,7 @@ export default function Popup({ plant, onClose, setAiPopupOpen }) {
         🌿 Ask AI about {plant.name}
       </button>
 
-      <img src={plant.image} alt={plant.name} className="w-full h-44 rounded-md" />
+      <img src={plant.image} alt={plant.name} className="w-full h-44 rounded-md bg-white" />
 
       <div className="mt-2 rounded-md overflow-hidden border border-green-300 shadow-sm">
   <model-viewer

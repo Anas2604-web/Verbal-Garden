@@ -39,10 +39,17 @@ export default function App() {
         }}
       />
 
-      <div className="h-[95vh] w-[100vw]">
+      <div className="h-[95vh] w-[100vw] flex">
         <GardenScene
           onSelectPlant={(p) => setSelectedPlant(p)}
           isAIPopupOpen={aiPopupOpen} // PASS AI popup state
+        />
+
+        {/* Side Image */}
+        <img
+          src="/assets/Images/virtual garden2.jpg" // yaha apni image ka path do
+          alt="Side Decoration"
+          className="h-[87vh] w-[29vw] object-cover rounded-2xl shadow-lg bg-amber-200 mt-7 ml-1"
         />
       </div> 
 

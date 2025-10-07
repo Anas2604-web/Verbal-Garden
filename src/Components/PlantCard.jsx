@@ -55,7 +55,7 @@ export default function PlantCard({ plant }) {
               <img
               src={plant.image}
               alt={plant.name}
-              className=" ml-10 h-65 w-70 object-cover rounded-lg"
+              className=" ml-19 h-65 w-50 object-cover rounded-lg"
               />
             </div>
             

@@ -76,7 +76,7 @@ export default function VirtualTour() {
           {/* image */}
           <div>
             <img
-              src="./assets/Images/virtual image key features.jpg"
+              src="./assets/Images/features plant.jpg"
               alt="Herbal Mission"
               className="rounded-2xl shadow-lg bg-white h-[500px] mt-5"
             />
@@ -123,7 +123,7 @@ export default function VirtualTour() {
               <img
                 src={selectedPlant.image}
                 alt={selectedPlant.name}
-                className="h-60 w-full object-cover rounded-md mb-4"
+                className="h-60 w-50 object-cover rounded-md mb-4 ml-22"
               />
               <h2 className="text-2xl font-bold text-green-800 mb-2">
                 {selectedPlant.name}

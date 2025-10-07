@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Environment, useGLTF, Html } from "@react-three/drei";
-import plants from "../data/plants";
+import plants from "../data/plants"; 
 
 /* Load plant model */
 function PlantModel({ modelPath, position, scale = 0.8 }) {
@@ -33,8 +33,12 @@ function PlantMarker({ position, label, onClick }) {
 }
 
 export default function GardenScene({ onSelectPlant, isAIPopupOpen }) {
+
+  // Only show first 20 plants for performance
+  const plantsToShow = plants.slice(0, 20);
+
   return (
-    <div className="border-2 border-green-500 rounded-2xl bg-green-300" style={{ height: "87vh", width: "93%", marginTop: 35, marginLeft: 53, marginBottom:10}}>
+    <div className="border-2 border-green-500 rounded-2xl bg-green-300" style={{ height: "87vh", width: "64%", marginTop: 35, marginLeft: 53, marginBottom:10}}>
       <Canvas camera={{ position: [0, 2.2, 5], fov: 60 }} shadows>
         <ambientLight intensity={0.6} />
         <directionalLight position={[5, 10, 5]} intensity={1} castShadow />
@@ -44,16 +48,22 @@ export default function GardenScene({ onSelectPlant, isAIPopupOpen }) {
             <meshStandardMaterial color="#7cc57c" />
           </mesh>
 
-          {!isAIPopupOpen && plants.map((p) => (
-            <React.Fragment key={p.id}>
-              <PlantModel modelPath={p.model} position={p.position} />
+          {/* Render only plant models */}
+          {plantsToShow.map((p) => (
+            <PlantModel key={p.id} modelPath={p.model} position={p.position} />
+          ))}
+
+          {/* Render markers only if popup is NOT open */}
+          {!isAIPopupOpen &&
+            plantsToShow.map((p) => (
               <PlantMarker
+                key={p.id}
                 position={[p.position[0], p.position[1] + 1.2, p.position[2]]}
                 label={p.name}
                 onClick={() => onSelectPlant(p)}
               />
-            </React.Fragment>
-          ))}
+            ))
+          }
 
           <Environment preset="forest" />
         </Suspense>
@@ -63,4 +73,3 @@ export default function GardenScene({ onSelectPlant, isAIPopupOpen }) {
     </div>
   );
 }
-
