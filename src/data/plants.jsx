@@ -265,7 +265,7 @@ const plants = [
     category: "Culinary Plant",
     uses: ["Enhances flavor", "Boosts immunity", "Supports heart", "Antioxidant"],
     image: "/assets/Images/Culinary plants/onion.png",
-    model: "/assets/3D models/Culinary plants/onion.glb",
+//     model: "/assets/3D models/Culinary plants/onion.glb",
     description: "Onion is a common culinary ingredient with medicinal properties.",
     audio: "/audio/onion.mp3",
     position: [-1.0, 0, -3.1]
@@ -276,7 +276,7 @@ const plants = [
     category: "Culinary Plant",
     uses: ["Rich in vitamins", "Supports digestion", "Anti-inflammatory", "Boosts immunity"],
     image: "/assets/Images/Culinary plants/parsley.webp",
-    model: "/assets/3D models/Culinary plants/parsley.glb",
+//     model: "/assets/3D models/Culinary plants/parsley.glb",
     description: "Parsley is a culinary herb used for flavor and nutrition.",
     audio: "/audio/parsley.mp3",
     position: [1.2, 0, -2.6]
@@ -287,7 +287,7 @@ const plants = [
     category: "Culinary Plant",
     uses: ["Enhances flavor", "Supports digestion", "Anti-inflammatory", "Rich in antioxidants"],
     image: "/assets/Images/Culinary plants/sweet basil.webp",
-    model: "/assets/3D models/Culinary plants/sweetbasil.glb",
+//     model: "/assets/3D models/Culinary plants/sweetbasil.glb",
     description: "Sweet Basil is a culinary herb widely used in cooking and medicine.",
     audio: "/audio/sweet-basil.mp3",
     position: [-0.7, 0, -2.8]
@@ -298,7 +298,7 @@ const plants = [
     category: "Culinary Plant",
     uses: ["Supports respiratory health", "Antimicrobial", "Boosts immunity", "Used in cooking"],
     image: "/assets/Images/Culinary plants/thyme.webp",
-    model: "/assets/3D models/Culinary plants/thyme.glb",
+//     model: "/assets/3D models/Culinary plants/thyme.glb",
     description: "Thyme is an aromatic herb used for culinary and medicinal purposes.",
     audio: "/audio/thyme.mp3",
     position: [0.5, 0, -3.0]
@@ -311,7 +311,7 @@ const plants = [
     category: "Healing Plant",
     uses: ["Heals burns", "Moisturizes skin", "Improves digestion", "Reduces dandruff"],
     image: "/assets/Images/Healing plants/aloevera.jpg",
-    model: "/assets/3D models/Healing plants/aloevera.glb",
+//     model: "/assets/3D models/Healing plants/aloevera.glb",
     description: "Aloe Vera is a succulent plant known for its gel rich in vitamins and minerals.",
     audio: "/audio/aloe-vera.mp3",
     position: [-1.0, 0, -2.0]
@@ -322,7 +322,7 @@ const plants = [
     category: "Healing Plant",
     uses: ["Reduces stress", "Boosts immunity", "Improves stamina", "Supports brain health"],
     image: "/assets/Images/Healing plants/ashwagandha.png",
-    model: "/assets/3D models/Healing plants/Ashwagandha.glb",
+//     model: "/assets/3D models/Healing plants/Ashwagandha.glb",
     description: "Ashwagandha is an Ayurvedic herb used for stress relief and overall vitality.",
     audio: "/audio/ashwagandha.mp3",
     position: [1.1, 0, -2.3]
@@ -333,7 +333,7 @@ const plants = [
     category: "Healing Plant",
     uses: ["Heals wounds", "Soothes skin", "Reduces inflammation", "Supports digestion"],
     image: "/assets/Images/Healing plants/calendula.webp",
-    model: "/assets/3D models/Healing plants/calendula.glb",
+//     model: "/assets/3D models/Healing plants/calendula.glb",
     description: "Calendula is a medicinal flower used for skin healing and digestive health.",
     audio: "/audio/calendula.mp3",
     position: [-0.8, 0, -2.5]
@@ -344,7 +344,7 @@ const plants = [
     category: "Healing Plant",
     uses: ["Boosts immunity", "Reduces cold symptoms", "Anti-inflammatory", "Supports skin health"],
     image: "/assets/Images/Healing plants/echinacea.jpg",
-    model: "/assets/3D models/Healing plants/echinacea.glb",
+//     model: "/assets/3D models/Healing plants/echinacea.glb",
     description: "Echinacea is a flowering plant used to boost immunity and fight infections.",
     audio: "/audio/echinacea.mp3",
     position: [0.7, 0, -2.9]
@@ -355,7 +355,7 @@ const plants = [
     category: "Healing Plant",
     uses: ["Aids digestion", "Reduces nausea", "Anti-inflammatory", "Boosts immunity"],
     image: "/assets/Images/Healing plants/Ginger.png",
-    model: "/assets/3D models/Healing plants/ginger.glb",
+//     model: "/assets/3D models/Healing plants/ginger.glb",
     description: "Ginger is a root widely used for culinary and medicinal purposes.",
     audio: "/audio/ginger.mp3",
     position: [-1.1, 0, -3.2]
@@ -366,7 +366,7 @@ const plants = [
     category: "Healing Plant",
     uses: ["Improves memory", "Reduces anxiety", "Supports skin health", "Aids healing wounds"],
     image: "/assets/Images/Healing plants/gotukola.jpg",
-    model: "/assets/3D models/Healing plants/gotukola.glb",
+//     model: "/assets/3D models/Healing plants/gotukola.glb",
     description: "Gotu Kola is an herb used in traditional medicine for memory and wound healing.",
     audio: "/audio/gotu-kola.mp3",
     position: [1.0, 0, -3.0]
@@ -377,7 +377,7 @@ const plants = [
     category: "Healing Plant",
     uses: ["Purifies blood", "Anti-bacterial", "Supports skin health", "Boosts immunity"],
     image: "/assets/Images/Healing plants/neem.webp",
-    model: "/assets/3D models/Healing plants/neem.glb",
+//     model: "/assets/3D models/Healing plants/neem.glb",
     description: "Neem is a medicinal tree used in Ayurvedic medicine for skin and immunity.",
     audio: "/audio/neem.mp3",
     position: [-0.7, 0, -2.7]
@@ -388,7 +388,7 @@ const plants = [
     category: "Healing Plant",
     uses: ["Relieves headaches", "Aids digestion", "Freshens breath", "Reduces stress"],
     image: "/assets/Images/Healing plants/peppermint.jpg",
-    model: "/assets/3D models/Healing plants/mint.glb",
+//     model: "/assets/3D models/Healing plants/mint.glb",
     description: "Peppermint is a hybrid mint plant used for medicinal and culinary purposes.",
     audio: "/audio/peppermint.mp3",
     position: [0.6, 0, -2.8]
@@ -399,7 +399,7 @@ const plants = [
     category: "Healing Plant",
     uses: ["Boosts immunity", "Reduces stress", "Supports respiratory health", "Anti-inflammatory"],
     image: "/assets/Images/Healing plants/tulsi.webp",
-    model: "/assets/3D models/Healing plants/tulsi.glb",
+//     model: "/assets/3D models/Healing plants/tulsi.glb",
     description: "Tulsi is a sacred plant in Ayurveda known for its healing properties.",
     audio: "/audio/tulsi.mp3",
     position: [-1.0, 0, -3.1]
@@ -412,7 +412,7 @@ const plants = [
     category: "Rare Plant",
     uses: ["Traditional medicine", "Anti-inflammatory", "Supports digestion", "Aids skin health"],
     image: "/assets/Images/Rare plants/Bhutkeshi.png",
-    model: "/assets/3D models/RareMedical plants/Bhutkeshi.glb",
+//     model: "/assets/3D models/RareMedical plants/Bhutkeshi.glb",
     audio: "/audio/bhutkeshi.mp3",
     description: "Bhutkeshi is a rare medicinal plant used in traditional remedies.",
     position: [1.2, 0, -2.2]
@@ -423,7 +423,7 @@ const plants = [
     category: "Rare Plant",
     uses: ["Supports digestion", "Boosts metabolism", "Anti-inflammatory", "Aids skin health"],
     image: "/assets/Images/Rare plants/chitrak.png",
-    model: "/assets/3D models/RareMedical plants/chitrak.glb",
+//     model: "/assets/3D models/RareMedical plants/chitrak.glb",
     description: "Chitrak is a rare Ayurvedic herb used for digestive health and metabolism.",
     audio: "/audio/chitrak.mp3",
     position: [-1.3, 0, -2.5]
@@ -434,7 +434,7 @@ const plants = [
     category: "Rare Plant",
     uses: ["Reduces pain", "Aromatherapy", "Supports skin health", "Anti-inflammatory"],
     image: "/assets/Images/Rare plants/Gandhapura wintergreen.jpg",
-    model: "/assets/3D models/RareMedical plants/Gandhapura.glb",
+//     model: "/assets/3D models/RareMedical plants/Gandhapura.glb",
     description: "Gandhapura, also known as Wintergreen, is a rare aromatic and medicinal plant.",
     audio: "/audio/gandhapura.mp3",
     position: [1.0, 0, -3.0]
@@ -445,7 +445,7 @@ const plants = [
     category: "Rare Plant",
     uses: ["Boosts immunity", "Supports vitality", "Anti-aging", "Aids skin health"],
     image: "/assets/Images/Rare plants/jivanti.jpg",
-    model: "/assets/3D models/RareMedical plants/jivanti.glb",
+//     model: "/assets/3D models/RareMedical plants/jivanti.glb",
     description: "Jivanti is a rare herb used for rejuvenation and vitality in Ayurveda.",
     audio: "/audio/jivanti.mp3",
     position: [-0.8, 0, -2.8]
@@ -456,7 +456,7 @@ const plants = [
     category: "Rare Plant",
     uses: ["Supports liver health", "Detoxifies body", "Anti-inflammatory", "Boosts immunity"],
     image: "/assets/Images/Rare plants/kutki.jpg",
-    model: "/assets/3D models/RareMedical plants/kutki.glb",
+//     model: "/assets/3D models/RareMedical plants/kutki.glb",
     description: "Kutki is a rare medicinal herb used for liver and digestive health.",
     audio: "/audio/kutki.mp3",
     position: [0.7, 0, -3.1]
@@ -467,7 +467,7 @@ const plants = [
     category: "Rare Plant",
     uses: ["Traditional medicine", "Anti-inflammatory", "Supports digestion", "Boosts immunity"],
     image: "/assets/Images/Rare plants/salampanja.png",
-    model: "/assets/3D models/RareMedical plants/salampanja.glb",
+//     model: "/assets/3D models/RareMedical plants/salampanja.glb",
     description: "Salamlanja is a rare herb used in traditional medicine.",
     audio: "/audio/salam-lanja.mp3",
     position: [1.1, 0, -2.9]
@@ -478,7 +478,7 @@ const plants = [
     category: "Rare Plant",
     uses: ["Improves memory", "Reduces stress", "Supports brain health", "Anti-inflammatory"],
     image: "/assets/Images/Rare plants/Shankhpushpi.png",
-    model: "/assets/3D models/RareMedical plants/shankhpushpi.glb",
+//     model: "/assets/3D models/RareMedical plants/shankhpushpi.glb",
     description: "Shankhpushpi is a rare herb used in Ayurveda to support cognitive functions.",
     audio: "/audio/shankhpushpi.mp3",
     position: [-0.9, 0, -3.0]
