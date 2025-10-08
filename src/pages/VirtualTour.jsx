@@ -135,7 +135,7 @@ export default function VirtualTour() {
 
               <div className="mt-5 text-center">
                 <Link
-                  to={`/plant/${selectedPlant.id}`}
+                  to={`/${selectedPlant.id}`}
                   className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition"
                 >
                   View Full Details

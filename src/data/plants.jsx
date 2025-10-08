@@ -8,14 +8,38 @@ const plants = [
     image: "/assets/Images/Aromatic/chamomile.jpg",
     model: "/assets/3D models/Aromatic plants/chamomile.glb",
     description: "Chamomile is a fragrant herb used in teas and oils for calming and anti-inflammatory effects.",
+    Longdescription: "Chamomile is one of the oldest and most beloved medicinal herbs known to humankind, often referred to as the “doctor of plants.” This gentle yet powerful flowering herb has been used for thousands of years in traditional medicine systems such as Ayurveda and ancient Greek, Roman, and Egyptian practices. Its daisy-like flowers, with their bright yellow centers and delicate white petals, carry a sweet, apple-like fragrance that instantly soothes the senses.",
+    scientificName: "Matricaria chamomilla",
     audio: "/audio/chamomile.mp3",
+    about: "Chamomile is a gentle, aromatic herb celebrated worldwide for its calming and healing properties. Belonging to the daisy family (Asteraceae), this plant is native to Europe and Western Asia but now grows in many parts of the world. Its small, white, daisy-like flowers with yellow centers are both beautiful and medicinally powerful.",
+    commonUses: [
+    "Used to make relaxing herbal tea",
+    "Popular in skincare and aromatherapy",
+    "Helps soothe stress and improve sleep",
+    "Used in herbal remedies for digestion and pain relief"
+    ],
     position: [10.0, 0, 0.0] // Angle: 0°
   },
   {
     id: "eucalyptus",
-    name: "Eucalyptus",
+    name: "Blue Gum",
+scientificName: "Eucalyptus globulus",
     category: "Aromatic Plant",
-    uses: ["Clears congestion", "Relieves muscle pain", "Boosts immunity", "Repels insects"],
+    Longdescription: "Eucalyptus is a fast-growing evergreen tree native to Australia, recognized for its long, slender leaves and aromatic properties. Its leaves are rich in essential oils that provide respiratory relief, anti-inflammatory and antiseptic benefits, and soothing effects for both internal and external ailments. Traditionally used by Indigenous Australians for healing, Eucalyptus is now incorporated worldwide in natural remedies, aromatherapy, personal care products, and wellness treatments. The tree can grow to impressive heights and is also valued for timber, paper, and oil extraction. Its refreshing, camphor-like scent helps clear the airways, invigorates the senses, and promotes overall well-being. Eucalyptus is considered a versatile plant for both medicinal and everyday uses, making it a vital component of herbal gardens and home remedies.",
+  about: "Eucalyptus is cultivated globally for medicinal purposes, personal care products, aromatherapy, and even timber and paper production. Its refreshing, camphor-like aroma not only helps clear the airways and improve breathing but also invigorates the mind and uplifts mood. The tree can reach impressive heights, making it a visually striking addition to gardens and landscapes. Eucalyptus is not only a symbol of healing and wellness but also an essential plant in herbal gardens, combining beauty, utility, and therapeutic value in one.",
+  uses: [
+    "Relieves respiratory congestion and coughs",
+    "Acts as an anti-inflammatory and antiseptic",
+    "Reduces muscle and joint pain",
+    "Maintains oral hygiene",
+    "Supports the immune system"
+  ],
+  commonUses: [
+    "Used in aromatherapy and massage oils",
+    "Included in skincare and haircare products",
+    "Used in herbal remedies like teas and ointments",
+    "Leaves or oil used as natural air fresheners or insect repellents"
+  ],
     image: "/assets/Images/Aromatic/eucalyptus.jpg",
     model: "/assets/3D models/Aromatic plants/eucalyptus.glb",
     description: "Eucalyptus is an aromatic tree used for respiratory health and essential oils.",

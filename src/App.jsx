@@ -7,6 +7,7 @@ import Login from './Components/login';
 import Signup from './Components/Signup';
 import About from './pages/About';
 import Threedmodel from './Components/Threedmodel';
+import HighlightedPlant from './pages/highlighted';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/About" element={<About/>} />
         <Route path="/Virtualtour" element={<VirtualTour />} />
         <Route path="/GardenScene" element={<Threedmodel />} />
+        <Route path="/:id" element={<HighlightedPlant />} />
       </Routes>
     </Router>
   );
