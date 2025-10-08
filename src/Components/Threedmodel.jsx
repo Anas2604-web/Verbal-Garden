@@ -27,7 +27,9 @@ export default function App() {
   };
 
   return (
-    <div className="relative overflow-hidden bg-gradient-to-b from-sky-200 to-green-300">
+    <div className="relative overflow-hidden bg-cover bg-no-repeat"
+    style={{ backgroundImage: "url('/assets/Images/virtualbg15 (2).jpg')" }}
+    >
       <div className="mt-8 text-center text-5xl font-bold text-green-900">
         <h3>Welcome To Virtual Tour</h3>
       </div>

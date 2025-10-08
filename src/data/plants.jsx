@@ -105,7 +105,7 @@ const plants = [
     category: "Aromatic Plant",
     uses: ["Reduces anxiety", "Used in perfumes", "Supports heart", "Skin care"],
     image: "/assets/Images/Aromatic/Ylang.jpg",
-    model: "/assets/3D models/Aromatic plants/ylang.glb",
+    model: "/assets/3D models/Aromatic plants/ylang1.glb",
     description: "Ylang-Ylang is a tropical flower with sweet fragrance used in aromatherapy.",
     audio: "/audio/ylang-ylang.mp3",
     position: [-9.51, 0, -3.09] // Angle: 162°
@@ -173,7 +173,7 @@ const plants = [
     category: "Ayurvedic Plant",
     uses: ["Boosts immunity", "Detoxifies body", "Reduces fever", "Supports digestion"],
     image: "/assets/Images/Ayurvedic plants/Giloy.jpg",
-    model: "/assets/3D models/Ayurvedic plants/giloy.glb",
+//     model: "/assets/3D models/Ayurvedic plants/giloy.glb",
     description: "Giloy is a climbing herb used for immunity and overall wellness in Ayurveda.",
     audio: "/audio/giloy.mp3",
     position: [-0.0, 0, 10.0] // Angle: 270°
@@ -184,7 +184,7 @@ const plants = [
     category: "Ayurvedic Plant",
     uses: ["Supports digestion", "Detoxifies body", "Improves skin", "Boosts immunity"],
     image: "/assets/Images/Ayurvedic plants/Haritaki.jpg",
-    model: "/assets/3D models/Ayurvedic plants/haritaki.glb",
+//     model: "/assets/3D models/Ayurvedic plants/haritaki.glb",
     description: "Haritaki is a medicinal fruit used in Ayurveda for detoxification.",
     audio: "/audio/haritaki.mp3",
     position: [3.09, 0, 9.51] // Angle: 288°
@@ -195,7 +195,7 @@ const plants = [
     category: "Ayurvedic Plant",
     uses: ["Purifies blood", "Improves skin", "Reduces inflammation", "Supports liver"],
     image: "/assets/Images/Ayurvedic plants/manjistha.png",
-    model: "/assets/3D models/Ayurvedic plants/manjistha.glb",
+//     model: "/assets/3D models/Ayurvedic plants/manjistha.glb",
     description: "Manjistha is a climbing herb in Ayurveda used for skin and blood purification.",
     audio: "/audio/manjistha.mp3",
     position: [5.88, 0, 8.09] // Angle: 306°
@@ -206,7 +206,7 @@ const plants = [
     category: "Ayurvedic Plant",
     uses: ["Supports reproductive health", "Boosts immunity", "Reduces stress", "Anti-inflammatory"],
     image: "/assets/Images/Ayurvedic plants/shatavari.jpg",
-    model: "/assets/3D models/Ayurvedic plants/satavari.glb",
+//     model: "/assets/3D models/Ayurvedic plants/satavari.glb",
     description: "Shatavari is a vital herb in Ayurveda supporting female reproductive health.",
     audio: "/audio/shatavari.mp3",
     position: [8.09, 0, 5.88] // Angle: 324°
@@ -219,7 +219,7 @@ const plants = [
     category: "Culinary Plant",
     uses: ["Adds flavor", "Rich in vitamins", "Supports digestion", "Antioxidant"],
     image: "/assets/Images/Culinary plants/chives.jpg",
-    model: "/assets/3D models/Culinary plants/chives.glb",
+//     model: "/assets/3D models/Culinary plants/chives.glb",
     description: "Chives are edible herbs used to enhance flavor and nutrition.",
     audio: "/audio/chives.mp3",
     position: [9.51, 0, 3.09] // Angle: 342°
