@@ -52,7 +52,7 @@ export default function About() {
                 </div>
                 <div className="bg-white rounded-2xl shadow-md p-6 text-center hover:scale-105 transition">
                     <h3 className="text-xl font-semibold mb-2">🎧 Multimedia</h3>
-                    <p className="text-green-700">Enjoy videos, audio narrations, and virtual tours.</p>
+                    <p className="text-green-700">Enjoy videos, and virtual tours.</p>
                 </div>
             </div>
       </div>
