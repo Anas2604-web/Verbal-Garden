@@ -461,7 +461,7 @@ commonUses: [
     category: "Healing Plant",
     uses: ["Heals burns", "Moisturizes skin", "Improves digestion", "Reduces dandruff"],
     image: "/assets/Images/Healing plants/aloevera.jpg",
-//     model: "/assets/3D models/Healing plants/aloevera.glb",
+    model: "/assets/3D models/Healing plants/aloevera.glb",
     description: "Aloe Vera is a succulent plant known for its gel rich in vitamins and minerals.",
     audio: "/audio/aloe-vera.mp3",
     position: [-1.0, 0, -2.0]
@@ -472,7 +472,7 @@ commonUses: [
     category: "Healing Plant",
     uses: ["Reduces stress", "Boosts immunity", "Improves stamina", "Supports brain health"],
     image: "/assets/Images/Healing plants/ashwagandha.png",
-//     model: "/assets/3D models/Healing plants/Ashwagandha.glb",
+    model: "/assets/3D models/Healing plants/Ashwagandha.glb",
     description: "Ashwagandha is an Ayurvedic herb used for stress relief and overall vitality.",
     audio: "/audio/ashwagandha.mp3",
     position: [1.1, 0, -2.3]
@@ -483,7 +483,7 @@ commonUses: [
     category: "Healing Plant",
     uses: ["Heals wounds", "Soothes skin", "Reduces inflammation", "Supports digestion"],
     image: "/assets/Images/Healing plants/calendula.webp",
-//     model: "/assets/3D models/Healing plants/calendula.glb",
+    model: "/assets/3D models/Healing plants/calendula.glb",
     description: "Calendula is a medicinal flower used for skin healing and digestive health.",
     audio: "/audio/calendula.mp3",
     position: [-0.8, 0, -2.5]
@@ -494,21 +494,10 @@ commonUses: [
     category: "Healing Plant",
     uses: ["Boosts immunity", "Reduces cold symptoms", "Anti-inflammatory", "Supports skin health"],
     image: "/assets/Images/Healing plants/echinacea.jpg",
-//     model: "/assets/3D models/Healing plants/echinacea.glb",
+    model: "/assets/3D models/Healing plants/echinacea.glb",
     description: "Echinacea is a flowering plant used to boost immunity and fight infections.",
     audio: "/audio/echinacea.mp3",
     position: [0.7, 0, -2.9]
-  },
-  {
-    id: "ginger",
-    name: "Ginger",
-    category: "Healing Plant",
-    uses: ["Aids digestion", "Reduces nausea", "Anti-inflammatory", "Boosts immunity"],
-    image: "/assets/Images/Healing plants/Ginger.png",
-//     model: "/assets/3D models/Healing plants/ginger.glb",
-    description: "Ginger is a root widely used for culinary and medicinal purposes.",
-    audio: "/audio/ginger.mp3",
-    position: [-1.1, 0, -3.2]
   },
   {
     id: "gotu-kola",
@@ -516,7 +505,7 @@ commonUses: [
     category: "Healing Plant",
     uses: ["Improves memory", "Reduces anxiety", "Supports skin health", "Aids healing wounds"],
     image: "/assets/Images/Healing plants/gotukola.jpg",
-//     model: "/assets/3D models/Healing plants/gotukola.glb",
+    model: "/assets/3D models/Healing plants/gotukola.glb",
     description: "Gotu Kola is an herb used in traditional medicine for memory and wound healing.",
     audio: "/audio/gotu-kola.mp3",
     position: [1.0, 0, -3.0]
@@ -527,7 +516,7 @@ commonUses: [
     category: "Healing Plant",
     uses: ["Purifies blood", "Anti-bacterial", "Supports skin health", "Boosts immunity"],
     image: "/assets/Images/Healing plants/neem.webp",
-//     model: "/assets/3D models/Healing plants/neem.glb",
+    model: "/assets/3D models/Healing plants/neem.glb",
     description: "Neem is a medicinal tree used in Ayurvedic medicine for skin and immunity.",
     audio: "/audio/neem.mp3",
     position: [-0.7, 0, -2.7]
@@ -538,7 +527,7 @@ commonUses: [
     category: "Healing Plant",
     uses: ["Relieves headaches", "Aids digestion", "Freshens breath", "Reduces stress"],
     image: "/assets/Images/Healing plants/peppermint.jpg",
-//     model: "/assets/3D models/Healing plants/mint.glb",
+    model: "/assets/3D models/Healing plants/peppermint.glb",
     description: "Peppermint is a hybrid mint plant used for medicinal and culinary purposes.",
     audio: "/audio/peppermint.mp3",
     position: [0.6, 0, -2.8]
@@ -549,7 +538,7 @@ commonUses: [
     category: "Healing Plant",
     uses: ["Boosts immunity", "Reduces stress", "Supports respiratory health", "Anti-inflammatory"],
     image: "/assets/Images/Healing plants/tulsi.webp",
-//     model: "/assets/3D models/Healing plants/tulsi.glb",
+    model: "/assets/3D models/Healing plants/tulsi.glb",
     description: "Tulsi is a sacred plant in Ayurveda known for its healing properties.",
     audio: "/audio/tulsi.mp3",
     position: [-1.0, 0, -3.1]
