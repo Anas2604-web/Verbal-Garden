@@ -56,7 +56,7 @@ export default function App() {
       </div> 
 
       {selectedPlant && (
-        <div className="absolute top-38 right-6 z-50 w-90 max-h-[86.9vh] overflow-y-auto border-2 border-green-400 bg-green-200 rounded-2xl shadow-lg p-4 scrollbar-hide">
+        <div className="absolute top-45 right-6 z-50 w-90 max-h-[86.9vh] overflow-y-auto border-2 border-green-400 bg-green-200 rounded-2xl shadow-lg p-4 scrollbar-hide">
           <Popup
             plant={selectedPlant}
             onClose={() => setSelectedPlant(null)}

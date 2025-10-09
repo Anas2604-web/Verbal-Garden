@@ -71,7 +71,7 @@ export default function HighlightedPlant() {
               <img
                 src={plant.image}
                 alt={plant.name}
-                className="w-[85%] h-[400px] object-cover rounded-2xl shadow-md bg-green-100"
+                className="w-[70%] h-[450px] object-cover rounded-2xl shadow-md bg-white"
               />
             </motion.div>
           </div>
