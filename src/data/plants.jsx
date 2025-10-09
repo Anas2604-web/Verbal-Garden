@@ -323,7 +323,7 @@ commonUses: [
     category: "Ayurvedic Plant",
     uses: ["Boosts immunity", "Detoxifies body", "Reduces fever", "Supports digestion"],
     image: "/assets/Images/Ayurvedic plants/Giloy.jpg",
-//     model: "/assets/3D models/Ayurvedic plants/giloy.glb",
+    model: "/assets/3D models/Ayurvedic plants/giloy.glb",
     description: "Giloy is a climbing herb used for immunity and overall wellness in Ayurveda.",
     audio: "/audio/giloy.mp3",
     position: [-0.0, 0, 10.0] // Angle: 270°
@@ -369,7 +369,7 @@ commonUses: [
     category: "Culinary Plant",
     uses: ["Adds flavor", "Rich in vitamins", "Supports digestion", "Antioxidant"],
     image: "/assets/Images/Culinary plants/chives.jpg",
-//     model: "/assets/3D models/Culinary plants/chives.glb",
+    model: "/assets/3D models/Culinary plants/chives.glb",
     description: "Chives are edible herbs used to enhance flavor and nutrition.",
     audio: "/audio/chives.mp3",
     position: [9.51, 0, 3.09] // Angle: 342°
@@ -382,21 +382,10 @@ commonUses: [
     category: "Culinary Plant",
     uses: ["Enhances flavor", "Aids digestion", "Rich in antioxidants", "Supports heart health"],
     image: "/assets/Images/Culinary plants/coriander.jpg",
-//     model: "/assets/3D models/Culinary plants/coriander.glb",
+    model: "/assets/3D models/Culinary plants/coriander.glb",
     description: "Coriander is an aromatic herb widely used in cooking and medicine.",
     audio: "/audio/coriander.mp3",
     position: [1.0, 0, -2.5]
-  },
-  {
-    id: "garlic",
-    name: "Garlic",
-    category: "Culinary Plant",
-    uses: ["Boosts immunity", "Reduces blood pressure", "Antimicrobial", "Supports heart health"],
-    image: "/assets/Images/Culinary plants/garlic.webp",
-//     model: "/assets/3D models/Culinary plants/garlic.glb",
-    description: "Garlic is a culinary herb known for flavor and medicinal properties.",
-    audio: "/audio/garlic.mp3",
-    position: [-0.8, 0, -2.9]
   },
   {
     id: "mint",
@@ -404,21 +393,10 @@ commonUses: [
     category: "Culinary Plant",
     uses: ["Supports digestion", "Relieves headaches", "Freshens breath", "Anti-inflammatory"],
     image: "/assets/Images/Culinary plants/mint.webp",
-//     model: "/assets/3D models/Culinary plants/mint.glb",
+    model: "/assets/3D models/Culinary plants/mint.glb",
     description: "Mint is a popular herb used in teas, culinary dishes, and medicine.",
     audio: "/audio/mint.mp3",
     position: [0.9, 0, -2.7]
-  },
-  {
-    id: "onion",
-    name: "Onion",
-    category: "Culinary Plant",
-    uses: ["Enhances flavor", "Boosts immunity", "Supports heart", "Antioxidant"],
-    image: "/assets/Images/Culinary plants/onion.png",
-//     model: "/assets/3D models/Culinary plants/onion.glb",
-    description: "Onion is a common culinary ingredient with medicinal properties.",
-    audio: "/audio/onion.mp3",
-    position: [-1.0, 0, -3.1]
   },
   {
     id: "parsley",
@@ -426,7 +404,7 @@ commonUses: [
     category: "Culinary Plant",
     uses: ["Rich in vitamins", "Supports digestion", "Anti-inflammatory", "Boosts immunity"],
     image: "/assets/Images/Culinary plants/parsley.webp",
-//     model: "/assets/3D models/Culinary plants/parsley.glb",
+    model: "/assets/3D models/Culinary plants/parsley.glb",
     description: "Parsley is a culinary herb used for flavor and nutrition.",
     audio: "/audio/parsley.mp3",
     position: [1.2, 0, -2.6]
@@ -437,7 +415,7 @@ commonUses: [
     category: "Culinary Plant",
     uses: ["Enhances flavor", "Supports digestion", "Anti-inflammatory", "Rich in antioxidants"],
     image: "/assets/Images/Culinary plants/sweet basil.webp",
-//     model: "/assets/3D models/Culinary plants/sweetbasil.glb",
+    model: "/assets/3D models/Culinary plants/sweetbasil.glb",
     description: "Sweet Basil is a culinary herb widely used in cooking and medicine.",
     audio: "/audio/sweet-basil.mp3",
     position: [-0.7, 0, -2.8]
@@ -448,7 +426,7 @@ commonUses: [
     category: "Culinary Plant",
     uses: ["Supports respiratory health", "Antimicrobial", "Boosts immunity", "Used in cooking"],
     image: "/assets/Images/Culinary plants/thyme.webp",
-//     model: "/assets/3D models/Culinary plants/thyme.glb",
+    model: "/assets/3D models/Culinary plants/thyme.glb",
     description: "Thyme is an aromatic herb used for culinary and medicinal purposes.",
     audio: "/audio/thyme.mp3",
     position: [0.5, 0, -3.0]
@@ -551,7 +529,7 @@ commonUses: [
     category: "Rare Plant",
     uses: ["Traditional medicine", "Anti-inflammatory", "Supports digestion", "Aids skin health"],
     image: "/assets/Images/Rare plants/Bhutkeshi.png",
-//     model: "/assets/3D models/RareMedical plants/Bhutkeshi.glb",
+    model: "/assets/3D models/RareMedical plants/Bhutkeshi.glb",
     audio: "/audio/bhutkeshi.mp3",
     description: "Bhutkeshi is a rare medicinal plant used in traditional remedies.",
     position: [1.2, 0, -2.2]
@@ -562,7 +540,7 @@ commonUses: [
     category: "Rare Plant",
     uses: ["Supports digestion", "Boosts metabolism", "Anti-inflammatory", "Aids skin health"],
     image: "/assets/Images/Rare plants/chitrak.png",
-//     model: "/assets/3D models/RareMedical plants/chitrak.glb",
+    model: "/assets/3D models/RareMedical plants/chitrak.glb",
     description: "Chitrak is a rare Ayurvedic herb used for digestive health and metabolism.",
     audio: "/audio/chitrak.mp3",
     position: [-1.3, 0, -2.5]
@@ -573,7 +551,7 @@ commonUses: [
     category: "Rare Plant",
     uses: ["Reduces pain", "Aromatherapy", "Supports skin health", "Anti-inflammatory"],
     image: "/assets/Images/Rare plants/Gandhapura wintergreen.jpg",
-//     model: "/assets/3D models/RareMedical plants/Gandhapura.glb",
+    model: "/assets/3D models/RareMedical plants/Gandhapura.glb",
     description: "Gandhapura, also known as Wintergreen, is a rare aromatic and medicinal plant.",
     audio: "/audio/gandhapura.mp3",
     position: [1.0, 0, -3.0]
@@ -584,7 +562,7 @@ commonUses: [
     category: "Rare Plant",
     uses: ["Boosts immunity", "Supports vitality", "Anti-aging", "Aids skin health"],
     image: "/assets/Images/Rare plants/jivanti.jpg",
-//     model: "/assets/3D models/RareMedical plants/jivanti.glb",
+    model: "/assets/3D models/RareMedical plants/jivanti.glb",
     description: "Jivanti is a rare herb used for rejuvenation and vitality in Ayurveda.",
     audio: "/audio/jivanti.mp3",
     position: [-0.8, 0, -2.8]
@@ -595,7 +573,7 @@ commonUses: [
     category: "Rare Plant",
     uses: ["Supports liver health", "Detoxifies body", "Anti-inflammatory", "Boosts immunity"],
     image: "/assets/Images/Rare plants/kutki.jpg",
-//     model: "/assets/3D models/RareMedical plants/kutki.glb",
+    model: "/assets/3D models/RareMedical plants/kutki.glb",
     description: "Kutki is a rare medicinal herb used for liver and digestive health.",
     audio: "/audio/kutki.mp3",
     position: [0.7, 0, -3.1]
@@ -606,7 +584,7 @@ commonUses: [
     category: "Rare Plant",
     uses: ["Traditional medicine", "Anti-inflammatory", "Supports digestion", "Boosts immunity"],
     image: "/assets/Images/Rare plants/salampanja.png",
-//     model: "/assets/3D models/RareMedical plants/salampanja.glb",
+    model: "/assets/3D models/RareMedical plants/salampanja.glb",
     description: "Salamlanja is a rare herb used in traditional medicine.",
     audio: "/audio/salam-lanja.mp3",
     position: [1.1, 0, -2.9]
@@ -617,7 +595,7 @@ commonUses: [
     category: "Rare Plant",
     uses: ["Improves memory", "Reduces stress", "Supports brain health", "Anti-inflammatory"],
     image: "/assets/Images/Rare plants/Shankhpushpi.png",
-//     model: "/assets/3D models/RareMedical plants/shankhpushpi.glb",
+    model: "/assets/3D models/RareMedical plants/shankhpushpi.glb",
     description: "Shankhpushpi is a rare herb used in Ayurveda to support cognitive functions.",
     audio: "/audio/shankhpushpi.mp3",
     position: [-0.9, 0, -3.0]
