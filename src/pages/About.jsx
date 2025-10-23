@@ -19,30 +19,29 @@ export default function About() {
           </p>
         </div>
 
-        
-
         {/* Mission Section */}
         <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4 sm:px-8 py-8">
           <div className="flex flex-col justify-center order-2 md:order-1 md:pl-6 lg:pl-12 text-center md:text-left items-center md:items-start">
             <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-green-900">
-            🌿 Our Mission
+              🌿 Our Mission
             </h2>
             <p className="text-base sm:text-lg text-green-700 leading-relaxed md:pr-6 lg:pr-12 max-w-xl">
-             The Virtual Herbal Garden aims to promote awareness of medicinal plants by
-             combining modern digital platforms with traditional herbal knowledge.
-             We provide interactive 3D models, detailed plant information, and engaging
-             multimedia to make learning fun and impactful.
+              The Virtual Herbal Garden aims to promote awareness of medicinal plants by
+              combining modern digital platforms with traditional herbal knowledge.
+              We provide interactive 3D models, detailed plant information, and engaging
+              multimedia to make learning fun and impactful.
             </p>
           </div>
-            <div className="flex justify-center order-1 md:order-2">
-                <img
-                    src="./assets/Images/main about.jpg"
-                    alt="Herbal Mission"
-                    className="rounded-2xl shadow-lg bg-white w-[500px] max-w-md sm:max-w-lg h-[400px] object-cover"
-                />
-            </div>
-        </div>
 
+          {/* ✅ Responsive image fix (only change here) */}
+          <div className="flex justify-center order-1 md:order-2">
+            <img
+              src="./assets/Images/main about.jpg"
+              alt="Herbal Mission"
+              className="rounded-2xl shadow-lg bg-white w-full sm:w-[450px] md:w-[500px] h-auto max-h-[400px] object-cover"
+            />
+          </div>
+        </div>
 
         {/* Features Section */}
         <div className="bg-green-200 py-12 mt-8 px-4 sm:px-8">
