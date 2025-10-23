@@ -7,7 +7,6 @@ import Footer from "../Components/Footer.jsx";
 
 const PlantList = () => {
   const [searchTerm, setSearchTerm] = useState("");
-
   const filteredPlants = plants.filter((p) =>
     p.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -18,40 +17,31 @@ const PlantList = () => {
       <Navbar />
 
       {/* Page Content */}
-      
-
-      
-      <div className="mt-1 pt-14 w-cover bg-gradient-to-b from-green-200 to-green-100 h-f "> {/* Add enough top padding to clear navbar */}
+      <div className="mt-1 pt-13 w-full bg-gradient-to-b from-green-200 to-green-100 min-h-screen">
         {/* Sticky Search Header */}
-        <div className="fixed w-full bg-green-200 bg-no-repeat bg-cover h-27 pl-23 ">
-          <h1 className="text-green-950 text-2xl font-bold mb-3 pt-3 ">All Plants</h1>
-          <SearchBar
-            searchTerm={searchTerm}
-            setSearchTerm={setSearchTerm}
-          />
+        <div className="fixed w-full bg-green-200 bg-no-repeat bg-cover h-auto sm:h-20 px-4 sm:px-10 md:px-20 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-4 py-4">
+          <h1 className="text-green-950 text-2xl font-bold text-center sm:text-left">
+            All Plants
+          </h1>
+          <div className="pl-[100px] flex justify-center sm:justify-center mt-2 sm:mt-0 w-full sm:w-auto">
+            <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+          </div>
         </div>
-
-        
 
         {/* Plant Cards */}
-        <div className="mt-30 pb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 pl-22 pr-22">
-            {filteredPlants.map((plant) => (
-            <PlantCard key={plant.id} plant={plant}/>
+        <div className="mt-36 pb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 px-4 sm:px-10 md:px-20">
+          {filteredPlants.map((plant) => (
+            <PlantCard key={plant.id} plant={plant} />
           ))}
-          </div>
-          
         </div>
-  
+      </div>
 
-      {/* //footer */}
-      <Footer/>
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
-
 export default PlantList;
-
-
 
 
 

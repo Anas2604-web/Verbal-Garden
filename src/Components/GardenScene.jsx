@@ -1,7 +1,3 @@
-
-
-
-
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Environment, Sky, useGLTF, Html } from "@react-three/drei";
@@ -55,16 +51,8 @@ export default function GardenScene({ onSelectPlant, isAIPopupOpen }) {
 
   return (
     <div
-      className="border-2 border-green-500 rounded-2xl shadow-lg"
-      style={{
-        height: "87vh",
-        width: "64%",
-        marginTop: 35,
-        marginLeft: 53,
-        marginBottom: 10,
-        overflow: "hidden",
-        background: "linear-gradient(180deg, #dfffe0 0%, #c3f7ff 100%)",
-      }}
+      className="border-2 border-green-500 rounded-2xl shadow-lg bg-gradient-to-b from-green-100 to-blue-100
+                 w-full lg:w-[64%] h-[45vh] sm:h-[55vh] lg:h-[87vh] mt-4 lg:mt-[35px] mx-auto lg:ml-[53px] mb-4 overflow-hidden"
     >
       <Canvas camera={{ position: [0, 2.5, 9], fov: 60 }} shadows>
         {/* 🌤 Natural sky */}
@@ -114,4 +102,4 @@ export default function GardenScene({ onSelectPlant, isAIPopupOpen }) {
       </Canvas>
     </div>
   );
-}                       
+}

@@ -30,7 +30,7 @@ export default function AIInfoPopup({ plantName, onClose }) {
 
       {/* Popup */}
       <div className="fixed inset-0 z-50 flex items-center justify-center">
-        <div className="relative w-11/12 max-w-5xl h-5/6 bg-emerald-100 rounded-xl shadow-2xl overflow-y-auto p-6 transform transition-transform duration-300 animate-slideUp">
+        <div className="fixed w-11/12 max-w-5xl h-5/6 bg-emerald-100 rounded-xl shadow-2xl overflow-y-auto p-6 transform transition-transform duration-300 animate-slideUp">
           
           {/* Close Button */}
           <button
@@ -41,7 +41,7 @@ export default function AIInfoPopup({ plantName, onClose }) {
           </button>
 
           {/* Title */}
-          <h2 className="text-2xl font-semibold mb-4">{plantName} - AI Herb Info</h2>
+          <h2 className="text-2xl font-semibold mb-2">{plantName} - AI Herb Info</h2>
 
           {/* Content */}
           {loading ? (
@@ -80,3 +80,7 @@ export default function AIInfoPopup({ plantName, onClose }) {
     </>
   );
 }
+
+
+
+

@@ -17,7 +17,7 @@ export default function Popup({ plant, onClose, setAiPopupOpen }) {
   };
 
   return (
-    <div className=" p-3" role="dialog" aria-labelledby="plant-title">
+    <div className="p-3" role="dialog" aria-labelledby="plant-title">
       <button className="float-right text-lg" onClick={onClose}>✕</button>
 
       <h2 id="plant-title" className="text-green-950 font-semibold">{plant.name}</h2>
@@ -62,3 +62,7 @@ export default function Popup({ plant, onClose, setAiPopupOpen }) {
     </div>
   );
 }
+
+
+
+

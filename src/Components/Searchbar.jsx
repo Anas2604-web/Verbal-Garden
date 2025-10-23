@@ -6,8 +6,8 @@ export default function SearchBar({ searchTerm, setSearchTerm }) {
       <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-black w-4 h-4" />
       <input
         type="text"
-        placeholder="Search plants..."
-        className="w-[250px] h-8 px-5 pl-10 pr-2 py-2 bg-gray-100 rounded-3xl focus:outline-none focus:ring-2 focus:ring-green-400"
+        placeholder="Search plants.."
+        className="w-[175px] md:w-[200px] h-8 px-5 pl-10 pr-2 py-2 bg-gray-100 rounded-3xl focus:outline-none focus:ring-2 focus:ring-green-400 sm:text-base"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />

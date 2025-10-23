@@ -21,7 +21,7 @@ function App() {
         <Route path="/plants/:id" element={<PlantDetail />} />
         <Route path="/About" element={<About/>} />
         <Route path="/Virtualtour" element={<VirtualTour />} />
-        <Route path="/GardenScene" element={<Threedmodel />} />
+        <Route path="/GardenTour" element={<Threedmodel />} />
         <Route path="/:id" element={<HighlightedPlant />} />
       </Routes>
     </Router>
